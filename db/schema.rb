@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170228015459) do
+ActiveRecord::Schema.define(version: 20170301144332) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -18,20 +18,28 @@ ActiveRecord::Schema.define(version: 20170228015459) do
   create_table "athlete_scores", force: :cascade do |t|
     t.integer  "wod_id"
     t.integer  "athlete_id"
-    t.integer  "place_region"
-    t.integer  "place_worldwide"
-    t.integer  "version"
-    t.datetime "created_at",      null: false
-    t.datetime "updated_at",      null: false
+    t.integer  "score"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string   "breakdown"
     t.index ["athlete_id"], name: "index_athlete_scores_on_athlete_id", using: :btree
     t.index ["wod_id"], name: "index_athlete_scores_on_wod_id", using: :btree
   end
 
   create_table "athletes", force: :cascade do |t|
     t.string   "name"
-    t.integer  "games_id"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.integer  "userid"
+    t.integer  "regionid"
+    t.integer  "affiliateid"
+    t.integer  "division"
+    t.string   "height"
+    t.string   "weight"
+    t.string   "profilepic"
+    t.integer  "age"
+    t.string   "region"
+    t.string   "affiliate"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
   end
 
   create_table "scrape_scores", force: :cascade do |t|

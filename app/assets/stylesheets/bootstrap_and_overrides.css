@@ -1,0 +1,63 @@
+/*
+  =require twitter-bootstrap-static/bootstrap
+
+  Static version of css will use Glyphicons sprites by default
+  =require twitter-bootstrap-static/sprites
+*/
+
+
+.formtastic li {
+    list-style: none;
+}
+
+.formtastic label {
+    color: black;
+}
+
+@media screen and (min-width: 480px) {
+    .main-content {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .table {
+        width: 100%;
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .main-content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+
+
+/*table > thead:first-child > tr:first-child > th:first-child {*/
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    /*background-color: red;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.table > tbody > tr > td:first-child {*/
+    /*position: absolute;*/
+    /*display: inline-block;*/
+    /*background-color: red;*/
+    /*height: 100%;*/
+/*}*/
+
+/*.table > thead:first-child > tr:first-child > th:nth-child(2) {*/
+    /*padding-left: 40px;*/
+/*}*/
+
+/*.table > tbody > tr > td:nth-child(2) {*/
+    /*padding-left: 50px !important;*/
+/*}*/
+

@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby '2.2.2'
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -35,9 +36,12 @@ gem 'jbuilder', '~> 2.5'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
+
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+  gem 'better_errors'#, :git => 'git://github.com/charliesome/better_errors.git'
+  gem 'binding_of_caller'
+  gem 'meta_request'
 end
 
 group :development do
@@ -53,3 +57,7 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'httparty'
+gem 'awesome_print'
+gem 'haml-rails', '~> 0.9'
+gem 'twitter-bootstrap-rails'
+gem 'formtastic-bootstrap'

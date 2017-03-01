@@ -1,0 +1,35 @@
+.page-header
+  %h1 Better Games Leaderboard
+
+
+.row
+  .col-md-3.col-xs-12
+    = semantic_form_for Filter.new do |f|
+      = f.input :division, label: false, as: :select, collection: Filter.division_options, include_blank: false
+      -#= f.input :fittest, label: 'Fittest In', as: :select, collection: Filter.fittest_options, include_blank: false
+      = f.input :fittest1, label: false, as: :select, collection: Filter.fittest1_options['1'], include_blank: false
+      = f.input :sort, label: false, as: :select, collection: Filter.sort_options, include_blank: false
+      %input.btn.btn-success{type:'submit', value:'Filter'}
+
+
+
+#results
+
+
+
+
+:javascript
+  $(document).ready(function(){
+    $('form').on('submit', function(e){
+      e.preventDefault();
+
+      $.ajax({
+        url: "/filter",
+        method:'POST',
+        data: $(this).serialize(),
+        success: function(data) {
+          $('#results').html(data);
+        }
+      });
+    });
+  });

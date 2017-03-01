@@ -1,0 +1,56 @@
+!!!
+%html
+  %head
+    = render 'layouts/rails_default'
+
+    - if content_for?(:css)
+      =yield(:css)
+
+    - domain_and_port = request.protocol + request.host_with_port
+    - meta_title = strip_html_tags(content_for?(:meta_title) ? yield(:meta_title) : 'Better Games Leaderboard')
+    - meta_description = strip_html_tags(content_for?(:meta_description) ? yield(:meta_description) : 'Presented to you by Wodfollow')
+    - meta_keywords = content_for?(:meta_keywords) ? yield(:meta_keywords) : ['CrossFit', 'Games', 'Leaderboard', 'Wodfollow']
+    - meta_favicon = domain_and_port + asset_path('favicon.ico')
+    - meta_url = content_for?(:meta_url) ? yield(:meta_url) : domain_and_port + request.fullpath
+    - og_image = content_for?(:og_image) ? yield(:og_image) : domain_and_port + asset_path('wf.png')
+    - twitter_site = default_twitter_handle
+
+    %meta{content: "text/html; charset=UTF-8", http:{equiv: "Content-Type"}}/
+    %meta{content:"width=device-width, initial-scale=1.0", name:"viewport"}/
+    %meta{content:"yes", name:"apple-mobile-web-app-capable"}/
+    %meta{http:{equiv:'X-UA-Compatible'}, content:'IE=11'}
+
+
+    %meta{property:"title", content: meta_title}
+    %meta{property:"description", content: meta_description}
+    %meta{property:"icon", content: meta_favicon}
+    %meta{property:"keywords", content: meta_keywords.join(' ')}
+
+    %meta{property:"og:image", content: og_image}
+    %meta{property:"og:url", content: meta_url}
+    %meta{property:"og:title", content: meta_title}
+    %meta{property:"og:description", content: meta_description}
+
+    %meta{property:"twitter:site", content: twitter_site}
+    %meta{property:"twitter:image", content: og_image}
+    %meta{property:"twitter:title", content: meta_title}
+    %meta{property:"twitter:description", content: meta_description}
+    %meta{property:"twitter:url", content: meta_url}
+
+    %title= full_title(meta_title)
+
+
+  %body
+    .wrapper
+      -#- if flash[:notice]
+      -#  .alert.alert-success
+      -#    = notice
+      -#- if flash[:alert]
+      -#  .alert.alert-warning
+      -#    = alert
+
+      =render 'layouts/header'
+      #content.main-content{role:'main'}
+        = yield
+
+      = render 'layouts/footer'

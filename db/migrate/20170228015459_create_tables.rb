@@ -2,22 +2,29 @@ class CreateTables < ActiveRecord::Migration[5.0]
   def change
     create_table :wods do |t|
       t.string :name
-      t.string :score_type
+      t.string :score_type  # either time, reps, or weight
       t.timestamps
     end
 
     create_table :athletes do |t|
       t.string :name
-      t.integer :games_id
+      t.integer :userid
+      t.integer :regionid
+      t.integer :affiliateid
+      t.integer :division
+      t.string :height
+      t.string :weight
+      t.string :profilepic
+      t.integer :age
+      t.string :region
+      t.string :affiliate
       t.timestamps
     end
 
     create_table :athlete_scores do |t|
       t.references :wod
       t.references :athlete
-      t.integer :place_region
-      t.integer :place_worldwide
-      t.integer :version
+      t.integer :score  # Seconds or reps
       t.timestamps
     end
 

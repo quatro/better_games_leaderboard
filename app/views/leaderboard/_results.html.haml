@@ -1,0 +1,59 @@
+
+.table-responsive
+  %table.table.table-striped
+    %thead
+      %tr
+        %th.col-sm-1 Pos
+        %th.col-sm-3 Name
+        %th.col-sm-1 Points
+        %th.nowrap 17.1
+        %th.nowrap 17.2
+        %th.nowrap 17.3
+        %th.nowrap 17.4
+        %th.nowrap 17.5
+
+    %tbody
+      - results['athletes'].each do |athlete|
+        %tr
+          %td #{athlete['overallrank']}
+          %td #{athlete['name']}
+          %td #{athlete['overallscore']}
+          - athlete['scores'].each do |score|
+            - scoredetails = score['scoredetails']
+            - if scoredetails && scoredetails['breakdown']
+              %td
+                %button.poppy.btn.btn-default{type:'button', data:{toggle:"popover", placement:'top', container:'body', content:scoredetails['breakdown']}}
+                  #{score['scoredisplay']}
+            - else
+              %td #{score['scoredisplay']}
+          -#%td 1
+          -#- if m.breakdown
+          -#  %td
+          -#- else
+          -#  %td #{m.score_formatted}
+          -#%td --
+          -#%td --
+          -#%td --
+          -#%td --
+          -#
+
+-#
+-#:javascript
+-#  $(function(){
+-#      var $table = $('.table');
+-#      //Make a clone of our table
+-#      var $fixedColumn = $table.clone().insertBefore($table).addClass('fixed-column');
+-#
+-#      //Remove everything except for first column
+-#      $fixedColumn.find('th:not(:first-child),td:not(:first-child)').remove();
+-#
+-#      //Match the height of the rows to that of the original table's
+-#      $fixedColumn.find('tr').each(function (i, elem) {
+-#          $(this).height($table.find('tr:eq(' + i + ')').height() - 1);
+-#      });
+-#  });
+
+:javascript
+  $(document).ready(function(){
+    $('.poppy').popover();
+  });

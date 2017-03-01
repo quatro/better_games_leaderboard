@@ -5,7 +5,7 @@ class LeaderboardController < ApplicationController
 
   def filter
     filter_params
-    page = params[:page] ? params[:page] : 1
+    page = filter_params[:page] ? filter_params[:page] : 1
     competition = 1
     year = 2017
     scaled = 0
@@ -14,11 +14,6 @@ class LeaderboardController < ApplicationController
     fittest1 = filter_params[:fittest1].to_i
     occupation = 0
     sort = filter_params[:sort]
-
-    #results = AthleteScore.joins('INNER JOIN athletes on athletes.id = athlete_scores.athlete_id').order('athlete_scores.score ASC').where('athlete_scores.score > 500')
-    #results = results.where('athletes.division = ?', division)
-    #results = results.where('athletes.regionid = ?', fittest1) if fittest1 > 0
-    #results = results[(page-1)*RESULTS_PER_PAGE,RESULTS_PER_PAGE]
 
     results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, 1)
 

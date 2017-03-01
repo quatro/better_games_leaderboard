@@ -3,7 +3,7 @@ class Filter
   include ActiveModel::Conversion
   extend ActiveModel::Naming
 
-  attr_accessor :competition, :year, :division, :scaled, :sort, :fittest, :fittest1, :occupation
+  attr_accessor :competition, :year, :division, :scaled, :sort, :fittest, :fittest1, :occupation, :page
 
   def initialize(h={})
     h.each {|k,v| public_send("#{k}=",v) if respond_to?("#{k}=")}

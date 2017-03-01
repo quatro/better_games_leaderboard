@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -64,19 +64,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_results.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_results.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="4" selection-start="99" selection-end="99" vertical-scroll-proportion="-6.25">
-              <folding />
+            <state line="2" column="0" selection-start="7" selection-end="114" vertical-scroll-proportion="0.02997003">
+              <folding>
+                <marker date="1488390787000" expanded="true" signature="7:114" placeholder=".row" />
+                <marker date="1488390787000" expanded="true" signature="16:53" placeholder=".col-xs-3" />
+                <marker date="1488390787000" expanded="true" signature="32:53" placeholder="=link_to 'First', '#'" />
+                <marker date="1488390787000" expanded="true" signature="61:70" placeholder=".col-xs-6" />
+                <marker date="1488390787000" expanded="true" signature="78:114" placeholder=".col-xs-3" />
+                <marker date="1488390787000" expanded="true" signature="94:114" placeholder="=link_to 'Last', '#'" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="111" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.58441556">
+            <state line="18" column="35" selection-start="965" selection-end="965" vertical-scroll-proportion="-11.25">
               <folding />
             </state>
           </provider>
@@ -184,10 +191,10 @@
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/models/filter.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
       </list>
     </option>
   </component>
@@ -960,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="4" selection-start="99" selection-end="99" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="9" selection-start="639" selection-end="639" vertical-scroll-proportion="-10.0">
@@ -983,8 +983,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="111" selection-start="1976" selection-end="1976" vertical-scroll-proportion="0.58441556">
+        <state line="18" column="35" selection-start="965" selection-end="965" vertical-scroll-proportion="-11.25">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="7" selection-end="114" vertical-scroll-proportion="0.02997003">
+          <folding>
+            <marker date="1488390787000" expanded="true" signature="7:114" placeholder=".row" />
+            <marker date="1488390787000" expanded="true" signature="16:53" placeholder=".col-xs-3" />
+            <marker date="1488390787000" expanded="true" signature="32:53" placeholder="=link_to 'First', '#'" />
+            <marker date="1488390787000" expanded="true" signature="61:70" placeholder=".col-xs-6" />
+            <marker date="1488390787000" expanded="true" signature="78:114" placeholder=".col-xs-3" />
+            <marker date="1488390787000" expanded="true" signature="94:114" placeholder="=link_to 'Last', '#'" />
+          </folding>
         </state>
       </provider>
     </entry>

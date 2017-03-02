@@ -5,7 +5,7 @@ class LeaderboardController < ApplicationController
 
   def filter
     filter_params
-    page = filter_params[:page] ? filter_params[:page] : 1
+    page = !filter_params[:page].blank? ? filter_params[:page] : 1
     competition = 1
     year = 2017
     scaled = 0
@@ -15,9 +15,9 @@ class LeaderboardController < ApplicationController
     occupation = 0
     sort = filter_params[:sort]
 
-    results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, 1)
+    results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, page)
 
-    render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results}
+    render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i}
   end
 
 

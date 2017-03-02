@@ -1,13 +1,23 @@
+- prev_disabled = current_page == 1
+- next_disabled = current_page.to_i == last_page.to_i
 
 %hr
--#.row
--#  .col-xs-3
--#    =link_to 'First', '#'
--#
--#  .col-xs-6
--#
--#  .col-xs-3
--#    =link_to 'Last', '#'
+.row
+  .col-xs-2.col-md-1.text-center.full
+    =link_to '1', '#', id:'first', class:'btn btn-default btn-primary btn-mobile'
+  .col-xs-2.col-md-1.text-center.full
+    =link_to 'Prev', '#', id:'prev', class:'btn btn-default btn-warning btn-mobile', disabled:prev_disabled
+  .col-xs-2.col-md-1.text-center.full
+    %span.well.well-padding #{current_page}
+  .col-xs-2.col-md-1.text-center.full
+    =link_to 'Next', '#', id:'next', class:'btn btn-default btn-warning btn-mobile', disabled:next_disabled
+  .col-xs-2.col-md-1.text-center.full
+    =link_to last_page.to_s, '#', id:'last', class:'btn btn-default btn-primary btn-mobile'
+
+
+  .col-xs-2.col-md-1.text-center.full
+    %input#gotopage.form-control{type:'text', placeholder:'Go To'}
+%hr
 
 .table-responsive
   %table.table.table-striped
@@ -36,34 +46,41 @@
                   #{score['scoredisplay']}
             - else
               %td #{score['scoredisplay']}
-          -#%td 1
-          -#- if m.breakdown
-          -#  %td
-          -#- else
-          -#  %td #{m.score_formatted}
-          -#%td --
-          -#%td --
-          -#%td --
-          -#%td --
-          -#
-
--#
--#:javascript
--#  $(function(){
--#      var $table = $('.table');
--#      //Make a clone of our table
--#      var $fixedColumn = $table.clone().insertBefore($table).addClass('fixed-column');
--#
--#      //Remove everything except for first column
--#      $fixedColumn.find('th:not(:first-child),td:not(:first-child)').remove();
--#
--#      //Match the height of the rows to that of the original table's
--#      $fixedColumn.find('tr').each(function (i, elem) {
--#          $(this).height($table.find('tr:eq(' + i + ')').height() - 1);
--#      });
--#  });
 
 :javascript
   $(document).ready(function(){
     $('.poppy').popover();
+
+    $('#first').on('click', function(e){
+      e.preventDefault();
+      $('#filter_page').val('1');
+      evaluate_current();
+    });
+
+    $('#last').on('click', function(e){
+      e.preventDefault();
+      $('#filter_page').val("#{last_page}");
+      evaluate_current();
+    });
+
+    $('#prev').on('click', function(e){
+      e.preventDefault();
+      $('#filter_page').val("#{current_page.to_i - 1}");
+      evaluate_current();
+    });
+
+    $('#next').on('click', function(e){
+      e.preventDefault();
+      $('#filter_page').val("#{current_page.to_i + 1}");
+      evaluate_current();
+    });
+
+
+    $('#gotopage').on('change', function(e){
+      e.preventDefault();
+      $('#filter_page').val($(this).val());
+      evaluate_current();
+    });
+
+
   });

@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   get 'leaderboard' => 'leaderboard#index'
   post 'filter' => 'leaderboard#filter'
+  post 'search' => 'leaderboard#search'
   get 'about' => 'home#about'
 
 

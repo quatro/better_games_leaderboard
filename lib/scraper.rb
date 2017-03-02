@@ -91,6 +91,10 @@ class Scraper
     self.class.get("/competitions/api/v1/competitions/open/2017/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:page}})
   end
 
+  def search(term, division)
+    self.class.get("/competitions/api/v1/competitions/open/2017/athletes", { query: {term:term, division: division}})
+  end
+
   private
 
   def page_count_for_filter(competition, year, division, scaled, fittest, fittest1, occupation, sort)
@@ -102,17 +106,6 @@ class Scraper
     results = self.class.get("/competitions/api/v1/competitions/open/2017/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:page}})
 
     wod = Wod.find_by_name('17.1')
-
-    currentpage = results['currentpage']
-    totalpages = results['totalpages']
-
-    #inserts = results['athletes'].map{ |athlete| "(#{[competition, year, division, scaled, fittest, fittest1, occupation, sort, currentpage, totalpages, sanitize(athlete['name']), athlete['userid'], athlete['overallrank'], athlete['overallscore'], athlete['regionid'], sanitize(athlete['region']), athlete['affiliateid'], sanitize(athlete['affiliate']), athlete['age'], athlete['highlight'], sanitize(athlete['height']), sanitize(athlete['weight']), sanitize(athlete['profilepic']), batch].join(', ')})" }
-
-    #sql = "INSERT INTO scrapes (competition, year, division, scaled, fittest, fittest1, occupation, sort, currentpage, totalpages, name, userid, overallrank, overallscore, regionid, region, affiliateid, affiliate, age, highlight, weight, height, profilepic, batch) VALUES #{inserts.join(', ')}"
-
-    #ActiveRecord::Base.connection.execute(sql) if inserts.any? # Only insert if there's something to insert
-
-    #sql_scores = "INSERT INTO scrape_scores (competition, year, division, scaled, fittest, fittest1, occupation, sort, currentpage, totalpages, name, userid, overallrank, overallscore, regionid, region, affiliateid, affiliate, age, highlight, weight, height, profilepic, batch) VALUES #{inserts.join(', ')}"
 
     results['athletes'].each do |athlete|
       userid = athlete['userid']

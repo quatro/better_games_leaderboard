@@ -20,6 +20,10 @@ class LeaderboardController < ApplicationController
     render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i}
   end
 
+  def search
+    render json: scraper.search(params[:q], params[:division]).map{|i| {label: i['name'], id: i['id']}}
+  end
+
 
   def filter_params
     params.require(:filter).permit!

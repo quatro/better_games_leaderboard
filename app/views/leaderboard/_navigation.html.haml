@@ -13,8 +13,50 @@
     =link_to 'Next', '#', class:'next-button btn btn-default btn-warning btn-mobile', disabled:next_disabled
   .col-xs-2.col-md-1.text-center.full
     =link_to last_page.to_s, '#', class:'last-button btn btn-default btn-primary btn-mobile'
-
-
   .col-xs-2.col-md-1.text-center.full
     %input.gotopage.form-control{type:'text', placeholder:'Go To'}
+
+.row
+  %input.form-control.search-box{type:'text', placeholder:'Search'}
 %hr
+-#
+-#:javascript
+-#
+-#  $.each($('.search-box'), function(item,i){
+-#    var val = $(this).val();
+-#
+-#    $(this).autocomplete({
+-#      source: function (request, response) {
+-#          $.ajax({
+-#              url: "/search",
+-#              data: {q: val },
+-#              success: function (data) {
+-#                  response($.map(data, function (item) {
+-#                      return {
+-#                          label: item.label,
+-#                          value: item.label,
+-#                          id: item.id
+-#                      }
+-#                  }));
+-#              }
+-#          });
+-#      },
+-#      search: function (event, ui) {
+-#          //$('#projects_ajax_loading').show();
+-#      },
+-#      response: function (event, ui) {
+-#          //$('#projects_ajax_loading').hide();
+-#      },
+-#      minLength: 4,
+-#      select: function (event, ui) {
+-#        alert(ui.item.label);
+-#        //$('#exchanger_article_articlable_global_id').val(ui.item.id);
+-#      },
+-#
+-#      // optional (if other layers overlap autocomplete list)
+-#      open: function (event, ui) {
+-#          //$(".ui-autocomplete").css("z-index", 1000);
+-#      }
+-#    });
+-#  });
+-#

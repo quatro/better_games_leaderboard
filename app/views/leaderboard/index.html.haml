@@ -25,6 +25,9 @@
 :javascript
   function evaluate_current() {
 
+    // Hide all popovers
+    $("[data-toggle='popover']").popover('hide');
+
     var form = $('form').first();
     $.ajax({
       url: "/filter",

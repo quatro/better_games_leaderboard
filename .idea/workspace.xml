@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +29,7 @@
     <file path="/_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340298245" ignored="false" />
     <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488380071859" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340386292" ignored="false" />
-    <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422683595" ignored="false" />
+    <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488482661448" ignored="false" />
     <file path="/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488377960955" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/helpers/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340694876" ignored="false" />
     <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340759840" ignored="false" />
@@ -85,7 +85,7 @@
     <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422945422" ignored="false" />
     <file path="/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422944796" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/log/newrelic_agent.log" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488423547239" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488482072053" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488482480992" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481870743" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/tenant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481787576" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481690833" ignored="false" />
@@ -125,14 +125,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_navigation.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.25074926">
+            <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="-10.458333">
               <folding>
                 <marker date="1488482149000" expanded="true" signature="836:910" placeholder=".row" />
                 <marker date="1488482149000" expanded="true" signature="845:910" placeholder="%input.form-control.search-box{type:'text', placeholder:'Search'}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="8" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.76423573">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +158,7 @@
       <file leaf-file-name="application.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="16" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -196,16 +205,7 @@
       <file leaf-file-name="about.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap_and_overrides.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="16" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
+            <state line="9" column="47" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -234,7 +234,6 @@
         <option value="$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml" />
         <option value="$PROJECT_DIR$/app/models/athlete.rb" />
         <option value="$PROJECT_DIR$/app/models/filter.rb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/views/home/about.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
@@ -245,6 +244,7 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
       </list>
     </option>
   </component>
@@ -990,13 +990,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="35" selection-start="965" selection-end="965" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="16" selection-start="805" selection-end="805" vertical-scroll-proportion="0.0">
@@ -1006,14 +999,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
+        <state line="9" column="47" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="16" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
+        <state line="20" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -1064,11 +1057,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.25074926">
+        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="-10.458333">
           <folding>
             <marker date="1488482149000" expanded="true" signature="836:910" placeholder=".row" />
             <marker date="1488482149000" expanded="true" signature="845:910" placeholder="%input.form-control.search-box{type:'text', placeholder:'Search'}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="8" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.76423573">
+          <folding />
         </state>
       </provider>
     </entry>

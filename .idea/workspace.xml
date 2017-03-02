@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424287894" ignored="false" />
-    <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340386292" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488461677842" ignored="false" />
+    <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481373084" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481773677" ignored="false" />
     <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488288054124" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488288087423" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488288086690" ignored="false" />
@@ -79,12 +79,24 @@
     <file path="/dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488407370093" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403479965" ignored="false" />
     <file path="/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403479965" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403646604" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488472629597" ignored="false" />
     <file path="/_navigation.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424363224" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422718472" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422945422" ignored="false" />
     <file path="/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422944796" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/log/newrelic_agent.log" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488423547239" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488482072053" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481870743" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/tenant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481787576" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481690833" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/helpers/tenants_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481702092" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/tenants_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481749651" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/application_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481757572" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/assets/stylesheets/application.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481763360" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/assets/javascripts/application.js" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481767601" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/ability.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481781394" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/_tenant_viewable_nav.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481795326" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481857198" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,12 +125,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_navigation.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_navigation.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="911" selection-end="2112" vertical-scroll-proportion="-8.916667">
+            <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.25074926">
               <folding>
-                <marker date="1488467825000" expanded="true" signature="916:2112" placeholder=":javascript" />
+                <marker date="1488482149000" expanded="true" signature="836:910" placeholder=".row" />
+                <marker date="1488482149000" expanded="true" signature="845:910" placeholder="%input.form-control.search-box{type:'text', placeholder:'Search'}" />
               </folding>
             </state>
           </provider>
@@ -171,10 +184,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="0.08991009">
+            <state line="6" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.75">
               <folding />
             </state>
           </provider>
@@ -230,8 +243,8 @@
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
       </list>
     </option>
   </component>
@@ -1035,12 +1048,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="911" selection-end="2112" vertical-scroll-proportion="-8.916667">
-          <folding>
-            <marker date="1488467825000" expanded="true" signature="916:2112" placeholder=":javascript" />
-          </folding>
+        <state line="6" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.75">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1051,10 +1062,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="0.08991009">
-          <folding />
+        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.25074926">
+          <folding>
+            <marker date="1488482149000" expanded="true" signature="836:910" placeholder=".row" />
+            <marker date="1488482149000" expanded="true" signature="845:910" placeholder="%input.form-control.search-box{type:'text', placeholder:'Search'}" />
+          </folding>
         </state>
       </provider>
     </entry>

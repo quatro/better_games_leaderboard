@@ -1,0 +1,20 @@
+- prev_disabled = current_page == 1
+- next_disabled = current_page.to_i == last_page.to_i
+
+%hr
+.row
+  .col-xs-2.col-md-1.text-center.full
+    =link_to '1', '#', class:'first-button btn btn-default btn-primary btn-mobile'
+  .col-xs-2.col-md-1.text-center.full
+    =link_to 'Prev', '#', class:'prev-button btn btn-default btn-warning btn-mobile', disabled:prev_disabled
+  .col-xs-2.col-md-1.text-center.full
+    %span.well.well-padding #{current_page}
+  .col-xs-2.col-md-1.text-center.full
+    =link_to 'Next', '#', class:'next-button btn btn-default btn-warning btn-mobile', disabled:next_disabled
+  .col-xs-2.col-md-1.text-center.full
+    =link_to last_page.to_s, '#', class:'last-button btn btn-default btn-primary btn-mobile'
+
+
+  .col-xs-2.col-md-1.text-center.full
+    %input.gotopage.form-control{type:'text', placeholder:'Go To'}
+%hr

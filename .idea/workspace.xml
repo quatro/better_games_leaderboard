@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/about.html.haml" afterPath="$PROJECT_DIR$/app/views/home/about.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
@@ -44,7 +41,7 @@
     <file path="/bootstrap_and_overrides.css.less" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341534237" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488420724459" ignored="false" />
     <file path="/leaderboard_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488419847177" ignored="false" />
-    <file path="/_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488420872912" ignored="false" />
+    <file path="/_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422001748" ignored="false" />
     <file path="/athletes_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488378379534" ignored="false" />
     <file path="/show.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488378445649" ignored="false" />
     <file path="/20170301144332_add_breakdown_to_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488379423400" ignored="false" />
@@ -85,6 +82,7 @@
     <file path="$PROJECT_DIR$/../htri.net/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403479965" ignored="false" />
     <file path="/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403479965" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403646604" ignored="false" />
+    <file path="/_navigation.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422031981" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,16 @@
       <file leaf-file-name="_results.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="41" selection-start="2506" selection-end="2506" vertical-scroll-proportion="-38.583332">
+            <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.75">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navigation.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="11" selection-start="779" selection-end="779" vertical-scroll-proportion="0.26973027">
               <folding />
             </state>
           </provider>
@@ -149,10 +156,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="about.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="57" selection-start="295" selection-end="295" vertical-scroll-proportion="0.13486513">
+            <state line="9" column="57" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -162,15 +169,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/layouts/_rails_default.html.haml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -212,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/athletes_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/athletes/show.html.haml" />
         <option value="$PROJECT_DIR$/db/migrate/20170301144332_add_breakdown_to_score.rb" />
@@ -225,9 +222,10 @@
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/home/about.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
       </list>
     </option>
   </component>
@@ -916,13 +914,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/tasks/import.rake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -1007,13 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="41" selection-start="2506" selection-end="2506" vertical-scroll-proportion="-38.583332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1" column="0" selection-start="13" selection-end="280" vertical-scroll-proportion="-0.625">
@@ -1023,7 +1007,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="57" selection-start="295" selection-end="295" vertical-scroll-proportion="0.13486513">
+        <state line="9" column="57" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="11" selection-start="779" selection-end="779" vertical-scroll-proportion="0.26973027">
           <folding />
         </state>
       </provider>

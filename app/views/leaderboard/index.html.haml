@@ -17,6 +17,7 @@
           -#= f.input :fittest, label: 'Fittest In', as: :select, collection: Filter.fittest_options, include_blank: false
           = f.input :fittest1, label: false, as: :select, collection: Filter.fittest1_options['1'], include_blank: false, input_html:{class:'form-control'}
           = f.input :sort, label: false, as: :select, collection: Filter.sort_options, include_blank: false, input_html:{class:'form-control'}
+          = f.input :athlete, as: :datalist, label:false, collection: [], input_html:{class:'form-control', placeholder:'Athlete Name'}
           = f.input :page, as: :hidden
 #results
 
@@ -24,7 +25,7 @@
 
 
 :javascript
-  function evaluate_current() {
+  function evaluate_current(athlete) {
 
     // Hide all popovers
     $("[data-toggle='popover']").popover('hide');
@@ -36,13 +37,60 @@
       data: form.serialize(),
       success: function(data) {
         $('#results').html(data);
+       
+        if (athlete) {
+           var w = $(window);
+           var row = $('#' + athlete);
+           if (row.length){
+              row.addClass('success').siblings().removeClass('success');
+              $('html,body').animate({scrollTop: row.offset().top - (w.height()/2)}, 500 );
+           } 
+        }
       }
     });
   }
+
+  function search_athlete() {
+     var q = $("#filter_athlete").val();
+     var division = $("#filter_division").val();
+     $.ajax({
+        url: "/search",
+        method:'POST',
+        data: {'q':q, 'division':division},
+        success: function(data) {
+             $datalist = $("#filter_athlete_datalist");
+             $datalist.empty();
+             for(var j=0; j < data.length; j++) {
+                var opt = document.createElement('option');
+                opt.value = data[j]['id'];
+                opt.text = data[j]['label'];
+                $datalist.append(opt);
+            }
+        } 
+    });
+  }
+
   $(document).ready(function(){
 
     evaluate_current();
-    $('select, input').on('change', function(e){
+    $('select').on('change', function(e){
       evaluate_current();
+    });
+
+
+    var athleteSearchTimeout;
+    $("#filter_athlete").bind('input', function () {
+      var val = $(this).val();
+      var opts = $('#filter_athlete_datalist').children();
+      for (var i = 0; i < opts.length; i++) {
+          if (opts[i].value === val) {
+             evaluate_current(opts[i].value); // This was a "selection" 
+             return;
+          }
+       }
+
+      // If we got here, they are still typing so reset the search timeout
+      clearTimeout(athleteSearchTimeout);
+      athleteSearchTimeout = setTimeout(search_athlete, 500);
     });
   });

@@ -14,14 +14,14 @@ class LeaderboardController < ApplicationController
     fittest1 = filter_params[:fittest1].to_i
     occupation = 0
     sort = filter_params[:sort]
+    athlete = filter_params[:athlete] 
 
-    results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, page)
-
-    render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i}
+    results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, athlete, page)
+    render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
   end
 
   def search
-    render json: scraper.search(params[:q], params[:division]).map{|i| {label: i['name'], id: i['id']}}
+    render json: scraper.search(params[:q], params[:division]).map{|i| {label: i['name'] + ' - ' + i['affiliate'], id: i['id']}}
   end
 
 

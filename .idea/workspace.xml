@@ -2,21 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424287894" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481373084" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481773677" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488288054124" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488288087423" ignored="false" />
-    <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488288086690" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547023027" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488584504580" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547485790" ignored="false" />
+    <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
     <file path="/filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341197326" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/lib/reports/report_widget_providers/air_distribution.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488291238711" ignored="false" />
     <file path="/air_distribution.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488291238711" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/controllers/static_pressure_profiles_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488292563975" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/controllers/static_pressure_profiles_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512119036" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/models/terminal_unit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488295479780" ignored="false" />
     <file path="/scrape.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488337885185" ignored="false" />
     <file path="/scrapes_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338251677" ignored="false" />
@@ -25,7 +26,7 @@
     <file path="/wod.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338343507" ignored="false" />
     <file path="/athlete_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488379914582" ignored="false" />
     <file path="/athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488339375981" ignored="false" />
-    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488423664971" ignored="false" />
+    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488486896071" ignored="false" />
     <file path="/_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340298245" ignored="false" />
     <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488380071859" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340386292" ignored="false" />
@@ -35,7 +36,7 @@
     <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340759840" ignored="false" />
     <file path="/about.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488421134306" ignored="false" />
     <file path="/_header.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341020303" ignored="false" />
-    <file path="/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488468020386" ignored="false" />
+    <file path="/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488584552515" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341534237" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488420724459" ignored="false" />
     <file path="/leaderboard_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424340434" ignored="false" />
@@ -47,7 +48,7 @@
     <file path="$PROJECT_DIR$/../htri.net/app/models/ability.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488462126544" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/devise/mailer/confirmation_instructions.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488391972092" ignored="false" />
     <file path="/confirmation_instructions.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488391972092" ignored="false" />
-    <file path="/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488390960563" ignored="false" />
+    <file path="/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487954672" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488391516508" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/controllers/authentication_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488391521895" ignored="false" />
     <file path="/authentication_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488391521895" ignored="false" />
@@ -74,7 +75,7 @@
     <file path="$PROJECT_DIR$/../htri.net/vendor/assets/smartbox/smartbox/stylesheets/theme.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488395361742" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/controllers/passwords_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488395809482" ignored="false" />
     <file path="/passwords_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488395809482" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/app/views/devise/shared/_links.html.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488395574793" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/views/devise/shared/_links.html.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546917790" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/lib/htri/dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488407370093" ignored="false" />
     <file path="/dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488407370093" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488403479965" ignored="false" />
@@ -85,18 +86,141 @@
     <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422945422" ignored="false" />
     <file path="/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422944796" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/log/newrelic_agent.log" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488423547239" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488482480992" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481870743" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/app/models/tenant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481787576" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/app/models/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481690833" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490256039" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490754392" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/tenant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490605627" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487958081" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/helpers/tenants_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481702092" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/tenants_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481749651" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/application_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481757572" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/tenants_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490614456" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/application_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488192418" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/assets/stylesheets/application.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481763360" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/assets/javascripts/application.js" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481767601" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/ability.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481781394" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/_tenant_viewable_nav.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481795326" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481857198" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490040547" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/Gemfile.lock" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490005693" ignored="false" />
+    <file path="/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488486973589" ignored="false" />
+    <file path="/shared_development.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487030055" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/environments/shared_development.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487066782" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/environments/test.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487186142" ignored="false" />
+    <file path="/test.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487185904" ignored="false" />
+    <file path="/shared_production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487167398" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/environments/shared_production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487167398" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/initializers/secret_token.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487293010" ignored="false" />
+    <file path="/secret_token.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487293010" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/README.rdoc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487316149" ignored="false" />
+    <file path="/README.rdoc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487315426" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/users_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490839907" ignored="false" />
+    <file path="/application_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487573614" ignored="false" />
+    <file path="/users_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487625954" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/concerns/profile_imageable.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488487684746" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/api_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488185719" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/attendees_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491377867" ignored="false" />
+    <file path="/attendees_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491364863" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/credit_cards_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547878725" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/gym_credit_cards_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488216963" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/programming_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488223740" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/receipts_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488228358" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/schedule_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488233770" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/seminar_coupons_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488238463" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/seminars_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488242310" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/super_user_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488247777" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/daily_segment_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488258861" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/track_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488266080" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/tenant_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488270077" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/template_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488274340" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/segment_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488278101" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/personal_record_type_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488281703" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/concerns/gym_based_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488285143" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/segment_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488367265" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/segment_scores_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488473556" ignored="false" />
+    <file path="/segment_scores_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488472828" ignored="false" />
+    <file path="/tenants_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490614103" ignored="false" />
+    <file path="/_navmenu_regular.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488697912" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/views/layouts/_navmenu_regular.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488488701525" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/.rvmrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490262308" ignored="false" />
+    <file path="/tenant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490605627" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/automated_procedures_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490780597" ignored="false" />
+    <file path="/automated_procedures_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490779702" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/gyms_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490871497" ignored="false" />
+    <file path="/gyms_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490863463" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/gym.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490886401" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/admin.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490899363" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/admins_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490923632" ignored="false" />
+    <file path="/admins_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490915856" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/tracks_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490970853" ignored="false" />
+    <file path="/tracks_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488490949848" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/track.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491018933" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/subscription.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491029792" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/subscriptions_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491068715" ignored="false" />
+    <file path="/subscriptions_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491053050" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/plans_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491104253" ignored="false" />
+    <file path="/plans_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491087590" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/plan.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491116107" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/follower.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491160231" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/followers_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491198457" ignored="false" />
+    <file path="/followers_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491191994" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/related_track.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491215578" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/daily_segments_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491243699" ignored="false" />
+    <file path="/daily_segments_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491241518" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/daily_segment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491272340" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_list_tracks_i_can_view.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491313569" ignored="false" />
+    <file path="/_list_tracks_i_can_view.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491313569" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/attendee.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491355947" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/automated_procedure.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491388178" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491401094" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/commission.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491410776" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/commission_reconciliation.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491422269" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/coupon.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491432225" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/coupons_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491473499" ignored="false" />
+    <file path="/coupons_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491473867" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/credit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491484165" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/credits_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491520475" ignored="false" />
+    <file path="/credits_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491518582" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/debit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491528781" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/debits_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491544947" ignored="false" />
+    <file path="/debits_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491540450" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/delayed_job.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491604779" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/email.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491612099" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/email_message.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491620159" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/email_message_recipient.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491666556" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/faq.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491679835" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/faqs_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491708612" ignored="false" />
+    <file path="/faqs_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491705050" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/fb_share_scrape.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491718171" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/featured_athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491724376" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/featured_athletes_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491754743" ignored="false" />
+    <file path="/featured_athletes_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491752829" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/go_private_request.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491820238" ignored="false" />
+    <file path="/gym_admins_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491854476" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/gym_admins_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491856149" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/gym_admin.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491867070" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/history_event.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491877465" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/merchant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491912652" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/merchants_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491948699" ignored="false" />
+    <file path="/merchants_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488491947395" ignored="false" />
+    <file path="/static_pressure_profiles_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512116607" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/static_pressure_profile_test.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512308053" ignored="false" />
+    <file path="/static_pressure_profile_test.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512306280" ignored="false" />
+    <file path="/static_pressure_profile.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512461318" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/static_pressure_profile.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512461318" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/static_pressure_profiles/_edit.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512696036" ignored="false" />
+    <file path="/_edit.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488512695461" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/views/authentication/_signup_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546157297" ignored="false" />
+    <file path="/_signup_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546151687" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/config/initializers/active_admin.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546389348" ignored="false" />
+    <file path="/active_admin.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546388915" ignored="false" />
+    <file path="/_links.html.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546911798" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/admin/exchanger.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547372725" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/views/exchanger_articles/_featured.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547467558" ignored="false" />
+    <file path="/_featured.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547447762" ignored="false" />
+    <file path="/credit_cards_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547873578" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/movement.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547889004" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/controllers/movements_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547921231" ignored="false" />
+    <file path="/movements_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547914142" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/personal_record_type.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547931269" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/personal_record_type_weight.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547942942" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/models/post.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547962571" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +243,7 @@
       <file leaf-file-name="_results.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.75">
+            <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.583332">
               <folding />
             </state>
           </provider>
@@ -128,7 +252,7 @@
       <file leaf-file-name="_navigation.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="-10.458333">
+            <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1488482149000" expanded="true" signature="836:910" placeholder=".row" />
                 <marker date="1488482149000" expanded="true" signature="845:910" placeholder="%input.form-control.search-box{type:'text', placeholder:'Search'}" />
@@ -137,10 +261,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="8" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.76423573">
+            <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="-30.583334">
               <folding />
             </state>
           </provider>
@@ -159,9 +283,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="20" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,10 +315,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.75">
+            <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="0.20979021">
               <folding />
             </state>
           </provider>
@@ -205,7 +327,7 @@
       <file leaf-file-name="about.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="47" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
+            <state line="9" column="47" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -242,9 +364,9 @@
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
       </list>
     </option>
   </component>
@@ -584,11 +706,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="recentsLimit" value="5" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Rails.Development: better_games_leaderboard">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -715,18 +837,6 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
@@ -874,24 +984,24 @@
     <frame x="0" y="23" width="1920" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -971,16 +1081,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_rails_default.html.haml">
@@ -999,7 +1105,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="47" selection-start="295" selection-end="295" vertical-scroll-proportion="-5.625">
+        <state line="9" column="47" selection-start="295" selection-end="295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1007,9 +1113,7 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="0" selection-start="879" selection-end="879" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,13 +1131,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="99" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="63" column="31" selection-start="2098" selection-end="2098" vertical-scroll-proportion="0.0">
@@ -1041,23 +1138,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="25" selection-start="187" selection-end="187" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="-10.458333">
+        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.0">
           <folding>
             <marker date="1488482149000" expanded="true" signature="836:910" placeholder=".row" />
             <marker date="1488482149000" expanded="true" signature="845:910" placeholder="%input.form-control.search-box{type:'text', placeholder:'Search'}" />
@@ -1067,7 +1150,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="8" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.76423573">
+        <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="-30.583334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="99" selection-start="785" selection-end="785" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.583332">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="0.20979021">
           <folding />
         </state>
       </provider>

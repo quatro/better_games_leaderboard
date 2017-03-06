@@ -24,7 +24,7 @@
             - if scoredetails && scoredetails['breakdown']
               %td
                 %button.poppy.btn.btn-default{type:'button', data:{toggle:"popover", placement:'top', container:'body', content:scoredetails['breakdown']}}
-                  #{score['scoredisplay']}
+                  #{score['workoutrank']} (#{score['scoredisplay']})
             - else
               %td #{score['scoredisplay']}
 

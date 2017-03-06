@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
@@ -10,8 +10,8 @@
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424287894" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481373084" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547023027" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488584504580" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488656943066" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488761756060" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547485790" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
     <file path="/filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341197326" ignored="false" />
@@ -26,7 +26,7 @@
     <file path="/wod.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338343507" ignored="false" />
     <file path="/athlete_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488379914582" ignored="false" />
     <file path="/athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488339375981" ignored="false" />
-    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488486896071" ignored="false" />
+    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657913463" ignored="false" />
     <file path="/_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340298245" ignored="false" />
     <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488380071859" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340386292" ignored="false" />
@@ -40,7 +40,7 @@
     <file path="/bootstrap_and_overrides.css.less" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341534237" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488420724459" ignored="false" />
     <file path="/leaderboard_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424340434" ignored="false" />
-    <file path="/_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422001748" ignored="false" />
+    <file path="/_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488761957128" ignored="false" />
     <file path="/athletes_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488378379534" ignored="false" />
     <file path="/show.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488378445649" ignored="false" />
     <file path="/20170301144332_add_breakdown_to_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488379423400" ignored="false" />
@@ -221,6 +221,33 @@
     <file path="$PROJECT_DIR$/../hyperfit/app/models/personal_record_type.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547931269" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/personal_record_type_weight.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547942942" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/post.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547962571" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_box_schedules/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488595894694" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_box_schedules/_conditional_containers.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488656886129" ignored="false" />
+    <file path="/control_configuration_groups_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488595725615" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/controllers/control_configuration_groups_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488595725615" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_box_schedules/_control_configuration.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488596377503" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/controllers/terminal_box_schedules_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597968238" ignored="false" />
+    <file path="/_conditional_containers.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597733870" ignored="false" />
+    <file path="/terminal_box_schedule_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488596837244" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/terminal_box_schedule_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488596840010" ignored="false" />
+    <file path="/terminal_box_schedules_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597968238" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/cond_in_cont_instances/_row_remote.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597754367" ignored="false" />
+    <file path="/_row_remote.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597753555" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/terminal_box_schedule.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597901950" ignored="false" />
+    <file path="/terminal_box_schedule.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597820017" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/concerns/conditional_inputable.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488597912189" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/cond_in_cont_instances/_new_remote.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488656909158" ignored="false" />
+    <file path="/_new_remote.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488656902318" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/cond_in_cont_instances/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488656792974" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/air_distributions/_form_mixed.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657013891" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/controllers/air_distributions_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657472321" ignored="false" />
+    <file path="/air_distributions_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657340346" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/air_distributions/new_mixed.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657503363" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/air_distributions/edit_mixed.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657503363" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/air_distributions/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657750358" ignored="false" />
+    <file path="/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657705775" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/air_distributions/_general.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657878817" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488657913463" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,10 +267,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_results.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_results.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.583332">
+            <state line="26" column="68" selection-start="921" selection-end="921" vertical-scroll-proportion="0.38961038">
               <folding />
             </state>
           </provider>
@@ -264,7 +291,7 @@
       <file leaf-file-name="application.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="-30.583334">
+            <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -315,10 +342,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="0.20979021">
+            <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.75">
               <folding />
             </state>
           </provider>
@@ -358,7 +385,6 @@
         <option value="$PROJECT_DIR$/app/models/filter.rb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
         <option value="$PROJECT_DIR$/app/views/home/about.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
@@ -367,6 +393,7 @@
         <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
       </list>
     </option>
   </component>
@@ -401,8 +428,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -701,16 +726,18 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: better_games_leaderboard">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -984,12 +1011,11 @@
     <frame x="0" y="23" width="1920" height="1173" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2524013" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -999,6 +1025,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1150,7 +1177,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="-30.583334">
+        <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1162,16 +1189,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="16" selection-start="1746" selection-end="1746" vertical-scroll-proportion="-33.583332">
+        <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="0.20979021">
+        <state line="26" column="68" selection-start="921" selection-end="921" vertical-scroll-proportion="0.38961038">
           <folding />
         </state>
       </provider>

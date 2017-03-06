@@ -87,8 +87,8 @@ class Scraper
 
   end
 
-  def filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, page)
-    self.class.get("/competitions/api/v1/competitions/open/2017/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:page}})
+  def filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, athlete, page)
+    self.class.get("/competitions/api/v1/competitions/open/2017/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:page, athlete:athlete}})
   end
 
   def search(term, division)

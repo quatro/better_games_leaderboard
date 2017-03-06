@@ -15,7 +15,7 @@
 
     %tbody
       - results['athletes'].each do |athlete|
-        %tr
+        %tr{:id => athlete['userid']}
           %td #{athlete['overallrank']}
           %td #{athlete['name']}
           %td #{athlete['overallscore']}

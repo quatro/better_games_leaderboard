@@ -17,7 +17,7 @@
           -#= f.input :fittest, label: 'Fittest In', as: :select, collection: Filter.fittest_options, include_blank: false
           = f.input :fittest1, label: false, as: :select, collection: Filter.fittest1_options['1'], include_blank: false, input_html:{class:'form-control'}
           = f.input :sort, label: false, as: :select, collection: Filter.sort_options, include_blank: false, input_html:{class:'form-control'}
-          = f.input :athlete, as: :datalist, label:false, collection: [], input_html:{class:'form-control', placeholder:'Athlete Name'}
+          -#= f.input :athlete, as: :datalist, label:false, collection: [], input_html:{class:'form-control', placeholder:'Athlete Name'}
           = f.input :page, as: :hidden
 #results
 

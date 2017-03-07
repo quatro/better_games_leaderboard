@@ -17,7 +17,6 @@
 
 .tt-input, /* UPDATE: newer versions use tt-input instead of tt-query */
 .tt-hint {
-    width: 323px;
     outline: none;
 }
 
@@ -30,7 +29,7 @@
 }
 
 .tt-menu { /* UPDATE: newer versions use tt-menu instead of tt-dropdown-menu */
-    width: 323px;
+    width: 100%;
     padding: 8px 0;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -50,4 +49,8 @@
     color: #fff;
     background-color: #0097cf;
 
+}
+
+.twitter-typeahead {
+   width: 100%;
 }

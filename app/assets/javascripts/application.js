@@ -16,5 +16,6 @@
 //= require twitter/bootstrap/tooltip
 //= require twitter/bootstrap/popover
 //= require autocomplete-rails
+//= require twitter/typeahead
 //= require turbolinks
 //= require_tree .

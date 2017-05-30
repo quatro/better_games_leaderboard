@@ -1,16 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" />
-    </list>
+    <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="" />
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173249713" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488941028014" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493832216105" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496172506006" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496177598078" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176122162" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490702556223" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
     <file path="/filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173374071" ignored="false" />
@@ -77,9 +75,9 @@
     <file path="$PROJECT_DIR$/../htri.net/app/views/devise/shared/_links.html.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488546917790" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/lib/htri/dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493748079319" ignored="false" />
     <file path="/dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493642333769" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493083019639" ignored="false" />
-    <file path="/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491227802983" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493381247871" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176321742" ignored="false" />
+    <file path="/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176321127" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176480997" ignored="false" />
     <file path="/_navigation.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424363224" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422718472" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422945422" ignored="false" />
@@ -967,7 +965,7 @@
     <file path="$PROJECT_DIR$/../htri.net/db/migrate/20170424173517_add_resolved_to_sendgrid_webhook.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493061578946" ignored="false" />
     <file path="/20170424173517_add_resolved_to_sendgrid_webhook.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493056378763" ignored="false" />
     <file path="/sendgrid_webhook_processor.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493080522466" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/lib/htri/sendgrid_webhook_processor.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493080523856" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/lib/htri/sendgrid_webhook_processor.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496178535902" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/sendgrid_bounce.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493753120034" ignored="false" />
     <file path="/sendgrid_bounce.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493167985355" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/sendgrid_event.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493086590059" ignored="false" />
@@ -975,7 +973,7 @@
     <file path="$PROJECT_DIR$/../htri.net/app/models/webinar.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493061902893" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/tutorial.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493061902894" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/page.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493061902894" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/app/models/sendgrid_webhook.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493080611257" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/models/sendgrid_webhook.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496178481817" ignored="false" />
     <file path="/sendgrid_webhook.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493080611257" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/admin/sendgrid_bounce.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493167987920" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/db/migrate/20170425004646_set_default_for_is_resolved_on_boune.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493081526966" ignored="false" />
@@ -1134,6 +1132,8 @@
     <file path="/regionals.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173352947" ignored="false" />
     <file path="/open.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496172804417" ignored="false" />
     <file path="/_regional_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173861035" ignored="false" />
+    <file path="/sendgrid_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176503092" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/controllers/sendgrid_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176505061" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -1,0 +1,71 @@
+
+
+:javascript
+  function evaluate_current(athlete) {
+
+    // Hide all popovers
+    $("[data-toggle='popover']").popover('hide');
+
+    var form = $('form').first();
+
+    if (athlete) {
+       $('<input>').attr({type: 'hidden', id: 'athlete_id', name: 'athlete_id', value: athlete }).appendTo(form);
+    }
+    $.ajax({
+      url: "/filter",
+      method:'POST',
+      data: form.serialize(),
+      success: function(data) {
+        $('#results').html(data);
+
+        if (athlete) {
+           var w = $(window);
+           var row = $('#' + athlete);
+           if (row.length){
+              row.addClass('success').siblings().removeClass('success');
+              $('html,body').animate({scrollTop: row.offset().top - (w.height()/2)}, 500 );
+           }
+        }
+      }
+    });
+  }
+
+  var athletes = new Bloodhound({
+      queryTokenizer: Bloodhound.tokenizers.whitespace,
+      datumTokenizer: Bloodhound.tokenizers.whitespace("label"),
+      identify: function(obj) {
+         return obj.id;
+      },
+      remote: {
+           url: "/search",
+           prepare: function (query, settings) {
+              var division = $("#filter_division").val();
+              settings.type = 'POST';
+              settings.contentType = "application/json; charset=UTF-8";
+              settings.data = JSON.stringify({'q':query, 'division':division});
+              return settings;
+           }
+      }
+  });
+
+  $(document).ready(function(){
+
+    evaluate_current();
+    $('select').on('change', function(e){
+      evaluate_current();
+    });
+
+    $('.typeahead').typeahead({
+           minLength: 3,
+           hint: false
+         }, {
+         name: 'athlete-search',
+         display: 'label',
+         source: athletes,
+         limit: 500
+     });
+    $('.typeahead').on("typeahead:select", function(event, selection) {
+        evaluate_current(selection.id);
+    });
+
+  });

@@ -10,78 +10,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170301144332) do
+ActiveRecord::Schema.define(version: 0) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
-
-  create_table "athlete_scores", force: :cascade do |t|
-    t.integer  "wod_id"
-    t.integer  "athlete_id"
-    t.integer  "score"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-    t.string   "breakdown"
-    t.index ["athlete_id"], name: "index_athlete_scores_on_athlete_id", using: :btree
-    t.index ["wod_id"], name: "index_athlete_scores_on_wod_id", using: :btree
-  end
-
-  create_table "athletes", force: :cascade do |t|
-    t.string   "name"
-    t.integer  "userid"
-    t.integer  "regionid"
-    t.integer  "affiliateid"
-    t.integer  "division"
-    t.string   "height"
-    t.string   "weight"
-    t.string   "profilepic"
-    t.integer  "age"
-    t.string   "region"
-    t.string   "affiliate"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
-  end
-
-  create_table "scrape_scores", force: :cascade do |t|
-    t.integer "workoutrank"
-    t.string  "workoutresult"
-    t.string  "scoreidentifier"
-    t.string  "scoredisplay"
-    t.string  "video"
-  end
-
-  create_table "scrapes", force: :cascade do |t|
-    t.integer "competition"
-    t.integer "year"
-    t.integer "division"
-    t.integer "scaled"
-    t.integer "fittest"
-    t.string  "fittest1"
-    t.integer "occupation"
-    t.integer "sort"
-    t.integer "currentpage"
-    t.integer "totalpages"
-    t.string  "name"
-    t.integer "userid"
-    t.string  "overallrank"
-    t.string  "overallscore"
-    t.string  "regionid"
-    t.string  "region"
-    t.string  "affiliateid"
-    t.string  "affiliate"
-    t.integer "age"
-    t.integer "highlight"
-    t.string  "height"
-    t.string  "weight"
-    t.string  "profilepic"
-    t.integer "batch"
-  end
-
-  create_table "wods", force: :cascade do |t|
-    t.string   "name"
-    t.string   "score_type"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
 
 end

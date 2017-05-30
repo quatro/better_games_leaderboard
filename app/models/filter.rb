@@ -3,7 +3,7 @@ class Filter
   include ActiveModel::Conversion
   extend ActiveModel::Naming
 
-  attr_accessor :competition, :year, :division, :scaled, :sort, :fittest, :fittest1, :occupation, :page, :athlete
+  attr_accessor :competition, :year, :division, :scaled, :sort, :fittest, :fittest1, :occupation, :page, :athlete, :regional
 
   def initialize(h={})
     h.each {|k,v| public_send("#{k}=",v) if respond_to?("#{k}=")}
@@ -19,7 +19,20 @@ class Filter
     {'Open' => 1}
   end
 
-  def self.division_options
+  def self.regional_options
+    {
+        'Atlantic' => 1,
+        'California' => 2,
+        'Central' => 3,
+        'East' => 4,
+        'Meridian' => 5,
+        'Pacific' => 6,
+        'South' => 7,
+        'West' => 8
+    }
+  end
+
+  def self.open_division_options
     {
         'Individual Men' => 1,
         'Individual Women' => 2,
@@ -40,6 +53,14 @@ class Filter
         'Masters Men (55-59)' => 7,
         'Masters Women (60+)' => 10,
         'Masters Men (60+)' => 9
+    }
+  end
+
+  def self.regional_division_options
+    {
+        'Individual Men' => 1,
+        'Individual Women' => 2,
+        'Team' => 11
     }
   end
 
@@ -369,6 +390,18 @@ class Filter
         '17.3' => 3,
         '17.4' => 4,
         '17.5' => 5
+    }
+  end
+
+  def self.regional_sort_options
+    {
+        'Overall' => 0,
+        '1' => 1,
+        '2' => 2,
+        '3' => 3,
+        '4' => 4,
+        '5' => 5,
+        '6' => 6,
     }
   end
 end

@@ -1,7 +1,7 @@
 - first_athlete = results['athletes'].first
 - first_athlete_scores = first_athlete['scores']
 
-=render 'navigation', current_page: current_page, last_page: last_page
+-#=render 'navigation', current_page: current_page, last_page: last_page
 
 .table-responsive
   %table.table.table-striped
@@ -32,7 +32,7 @@
             - else
               %td #{score['scoredisplay']}
 
-=render 'navigation', current_page: current_page, last_page: last_page
+-#=render 'navigation', current_page: current_page, last_page: last_page
 
 :javascript
   $(document).ready(function(){

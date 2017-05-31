@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   post 'filter' => 'leaderboard#filter_regional'
   post 'search' => 'leaderboard#search'
   get 'about' => 'home#about'
+  get 'scrape_regionals' => 'home#scrape_regionals'
 
 
   root 'leaderboard#regionals'

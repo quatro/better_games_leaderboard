@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="" />
+    <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/regional_score.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/models/athlete_score.rb" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/athlete.rb" afterPath="$PROJECT_DIR$/app/models/athlete.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/scrape.rb" afterPath="$PROJECT_DIR$/app/models/scrape.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173249713" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488941028014" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496177598078" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176122162" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496196808511" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496261596864" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490702556223" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
     <file path="/filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173374071" ignored="false" />
@@ -16,21 +25,21 @@
     <file path="/air_distribution.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490546801347" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/controllers/static_pressure_profiles_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490146998243" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/models/terminal_unit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491305206289" ignored="false" />
-    <file path="/scrape.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488337885185" ignored="false" />
+    <file path="/scrape.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496263731088" ignored="false" />
     <file path="/scrapes_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338251677" ignored="false" />
     <file path="/leaderboard_conroller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488339985865" ignored="false" />
     <file path="/import.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338368789" ignored="false" />
     <file path="/wod.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338343507" ignored="false" />
     <file path="/athlete_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488379914582" ignored="false" />
-    <file path="/athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488339375981" ignored="false" />
-    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173278897" ignored="false" />
+    <file path="/athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496264657748" ignored="false" />
+    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496264682263" ignored="false" />
     <file path="/_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340298245" ignored="false" />
     <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488380071859" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491227763380" ignored="false" />
-    <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488482661448" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496196951642" ignored="false" />
+    <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496194685306" ignored="false" />
     <file path="/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493514852909" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/helpers/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490206509753" ignored="false" />
-    <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493234528220" ignored="false" />
+    <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496264795289" ignored="false" />
     <file path="/about.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488421134306" ignored="false" />
     <file path="/_header.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341020303" ignored="false" />
     <file path="/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491149775172" ignored="false" />
@@ -79,11 +88,11 @@
     <file path="/.envrc" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176321127" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176480997" ignored="false" />
     <file path="/_navigation.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488424363224" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422718472" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496194745226" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422945422" ignored="false" />
     <file path="/_dashboard_wodfollow.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488422944796" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/log/newrelic_agent.log" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490964619329" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492896060733" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496191517859" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490756386132" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/tenant.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491245065962" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489761340737" ignored="false" />
@@ -94,7 +103,7 @@
     <file path="$PROJECT_DIR$/../hyperfit/app/assets/javascripts/application.js" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489013800301" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/models/ability.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488481781394" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/layouts/_tenant_viewable_nav.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489011478256" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489761340737" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496191898407" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/Gemfile.lock" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490754636997" ignored="false" />
     <file path="/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489087881200" ignored="false" />
     <file path="/shared_development.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489758059618" ignored="false" />
@@ -295,7 +304,7 @@
     <file path="/coil_traverse_rotating_vane.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488901110165" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/lib/htri/proxy_dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488919769736" ignored="false" />
     <file path="/proxy_dataservices.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488922141571" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489539724818" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/config/application.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496197092602" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/lib/htri/proxy.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488920797790" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/lib/proxy.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489087740012" ignored="false" />
     <file path="/proxy.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489087733061" ignored="false" />
@@ -369,7 +378,7 @@
     <file path="$PROJECT_DIR$/../hyperfit/config/environments/wodfollow_development.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488989122010" ignored="false" />
     <file path="/wodfollow_development.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488985435599" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/config/environments/development.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489761340737" ignored="false" />
-    <file path="$PROJECT_DIR$/../hyperfit/config/environments/production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488985493415" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/config/environments/production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496195408455" ignored="false" />
     <file path="/production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489494912737" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/config/environments/wodfollow.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489761340737" ignored="false" />
     <file path="/wodfollow.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488985583347" ignored="false" />
@@ -499,7 +508,7 @@
     <file path="/_primary_banner.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489417003426" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/sections/_secondary_banner.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489417047944" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/layouts/_standard.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489417202923" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri.net/config/environments/production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489494916499" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/config/environments/production.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496196974072" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/can_payload.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489493208527" ignored="false" />
     <file path="/can_payload.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489493208527" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/email_campaign.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491444834490" ignored="false" />
@@ -1134,6 +1143,18 @@
     <file path="/_regional_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496173861035" ignored="false" />
     <file path="/sendgrid_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176503092" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/controllers/sendgrid_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176505061" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_welcome_wodfollow_new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496192651371" ignored="false" />
+    <file path="/_welcome_wodfollow_new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496192559016" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/application/_bootstrap_includes.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496195453105" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_test.html.erb.bak" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496192927639" ignored="false" />
+    <file path="/_test.html.erb.bak" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496192860583" ignored="false" />
+    <file path="$PROJECT_DIR$/../hyperfit/app/views/home/_test.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496193008122" ignored="false" />
+    <file path="/_bootstrap_includes.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496194427992" ignored="false" />
+    <file path="/_rails_default.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496232562193" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/app/views/layouts/_rails_default.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496232562193" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri.net/vendor/assets/smartbox/smartbox/stylesheets/fonts.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496196925124" ignored="false" />
+    <file path="/20170531201301_create_regional_scores.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496264032505" ignored="false" />
+    <file path="/regional_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496263200896" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1153,19 +1174,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_results.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
+      <file leaf-file-name="_regional_results.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="50" selection-start="0" selection-end="2033" vertical-scroll-proportion="-16.875">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_navigation.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="-11.25">
+            <state line="32" column="61" selection-start="498" selection-end="1104" vertical-scroll-proportion="-14.333333">
               <folding />
             </state>
           </provider>
@@ -1174,52 +1186,61 @@
       <file leaf-file-name="leaderboard_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="13" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+            <state line="39" column="7" selection-start="1354" selection-end="1413" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_regional_results.html.haml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
+      <file leaf-file-name="20170531201301_create_regional_scores.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/migrate/20170531201301_create_regional_scores.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="18" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.5244755">
+            <state line="12" column="42" selection-start="290" selection-end="490" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="scrape.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/scrape.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scraper.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
+      <file leaf-file-name="home_controller.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="27" selection-start="3097" selection-end="3097" vertical-scroll-proportion="0.0">
+            <state line="2" column="6" selection-start="68" selection-end="84" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="47" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+            <state line="14" column="23" selection-start="522" selection-end="522" vertical-scroll-proportion="0.20487805">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/open.html.haml">
+      <file leaf-file-name="athlete.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/athlete.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="82" selection-start="525" selection-end="525" vertical-scroll-proportion="-9.375">
+            <state line="26" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="regional_score.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/regional_score.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="2" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1228,7 +1249,7 @@
       <file leaf-file-name="regionals.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.75">
+            <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1237,7 +1258,7 @@
       <file leaf-file-name="filter.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="24" selection-start="581" selection-end="581" vertical-scroll-proportion="-15.0">
+            <state line="21" column="27" selection-start="437" selection-end="453" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -1261,22 +1282,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css" />
-        <option value="$PROJECT_DIR$/app/views/home/about.html.haml" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/index.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_js.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/open.html.haml" />
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/filter.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" />
+        <option value="$PROJECT_DIR$/app/models/regional_score.rb" />
+        <option value="$PROJECT_DIR$/app/models/scrape.rb" />
+        <option value="$PROJECT_DIR$/db/migrate/20170531201301_create_regional_scores.rb" />
+        <option value="$PROJECT_DIR$/app/models/athlete.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
       </list>
     </option>
   </component>
@@ -1367,6 +1388,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="db" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="migrate" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="better_games_leaderboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="better_games_leaderboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -1408,54 +1447,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="better_games_leaderboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="better_games_leaderboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="home" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="better_games_leaderboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="better_games_leaderboard" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="athletes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1547,18 +1538,18 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
       <pane id="Scope" />
+      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: better_games_leaderboard">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -1836,7 +1827,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29669157" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2998933" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -1913,49 +1904,14 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="909" selection-end="909" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="29" selection-start="2128" selection-end="2128" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="2461" selection-end="2461" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="3" selection-start="0" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3066" selection-end="3066" vertical-scroll-proportion="-40.458332">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_js.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="0" selection-start="1876" selection-end="1876" vertical-scroll-proportion="-44.375">
-          <folding />
-        </state>
+        <state line="71" column="0" selection-start="1876" selection-end="1876" vertical-scroll-proportion="-44.375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/open.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="82" selection-start="525" selection-end="525" vertical-scroll-proportion="-9.375">
+        <state line="15" column="82" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1967,23 +1923,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="47" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_navigation.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="-11.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="933" selection-end="933" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="836" selection-end="910" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1997,28 +1939,77 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="50" selection-start="0" selection-end="2033" vertical-scroll-proportion="-16.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="24" selection-start="581" selection-end="581" vertical-scroll-proportion="-15.0">
+        <state line="27" column="50" selection-start="0" selection-end="2033" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="-8.75">
+        <state line="14" column="46" selection-start="433" selection-end="433" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/scrape.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="27" selection-start="437" selection-end="453" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="7" selection-start="1354" selection-end="1413" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="18" selection-start="1179" selection-end="1179" vertical-scroll-proportion="0.5244755">
+        <state line="32" column="61" selection-start="498" selection-end="1104" vertical-scroll-proportion="-14.333333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/regional_score.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="2" selection-start="63" selection-end="63" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/migrate/20170531201301_create_regional_scores.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="290" selection-end="490" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/athlete.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="68" selection-end="84" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="23" selection-start="522" selection-end="522" vertical-scroll-proportion="0.20487805">
           <folding />
         </state>
       </provider>

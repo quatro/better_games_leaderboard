@@ -10,9 +10,31 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20170531201301) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "athletes", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "userid"
+    t.string   "regionid"
+    t.string   "division"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "regional_scores", force: :cascade do |t|
+    t.integer  "athlete_id"
+    t.integer  "year"
+    t.integer  "workout"
+    t.string   "score"
+    t.integer  "minutes"
+    t.integer  "seconds"
+    t.integer  "fraction_seconds"
+    t.datetime "created_at",       null: false
+    t.datetime "updated_at",       null: false
+    t.index ["athlete_id"], name: "index_regional_scores_on_athlete_id", using: :btree
+  end
 
 end

@@ -1,4 +1,3 @@
 class Scrape < ApplicationRecord
 
-
 end

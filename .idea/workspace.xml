@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/delayed_job.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/regional_scraper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application.rb" afterPath="$PROJECT_DIR$/config/application.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml" afterPath="$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
@@ -35,7 +28,7 @@
     <file path="/athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496285799664" ignored="false" />
     <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496318413781" ignored="false" />
     <file path="/_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340298245" ignored="false" />
-    <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496317937420" ignored="false" />
+    <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496319661481" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496196951642" ignored="false" />
     <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496194685306" ignored="false" />
     <file path="/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493514852909" ignored="false" />
@@ -1184,18 +1177,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_regional_results.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="93" selection-end="98" vertical-scroll-proportion="-1.25">
-              <folding>
-                <marker date="1496318175000" expanded="true" signature="94:1035" placeholder="%hr" />
-                <marker date="1496318175000" expanded="true" signature="99:116" placeholder=".table-responsive" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leaderboard_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -1223,10 +1204,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="regional_scraper.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="regional_scraper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/regional_scraper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="2" selection-start="494" selection-end="494" vertical-scroll-proportion="0.36585367">
+            <state line="25" column="2" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_navmenu.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="87" selection-start="171" selection-end="171" vertical-scroll-proportion="0.05994006">
               <folding />
             </state>
           </provider>
@@ -1298,7 +1288,6 @@
         <option value="$PROJECT_DIR$/db/migrate/20170601012813_create_regional_cache.rb" />
         <option value="$PROJECT_DIR$/lib/regional_cacher.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_brough_by.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/cross_regional.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_brought_by.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/open.html.haml" />
@@ -1311,6 +1300,7 @@
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/lib/regional_scraper.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml" />
       </list>
     </option>
   </component>
@@ -1946,13 +1936,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="26" selection-start="498" selection-end="498" vertical-scroll-proportion="-11.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/cross_regional.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="7" selection-start="208" selection-end="208" vertical-scroll-proportion="-2.5">
@@ -1992,8 +1975,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="0" selection-start="93" selection-end="98" vertical-scroll-proportion="-1.25">
           <folding>
-            <marker date="1496318175000" expanded="true" signature="94:1035" placeholder="%hr" />
-            <marker date="1496318175000" expanded="true" signature="99:116" placeholder=".table-responsive" />
+            <marker date="1496318175000" expanded="true" signature="-1:-1" placeholder="%hr" />
+            <marker date="1496318175000" expanded="true" signature="-1:-1" placeholder=".table-responsive" />
           </folding>
         </state>
       </provider>
@@ -2056,7 +2039,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/regional_scraper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="2" selection-start="494" selection-end="494" vertical-scroll-proportion="0.36585367">
+        <state line="25" column="2" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/_navmenu.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="87" selection-start="171" selection-end="171" vertical-scroll-proportion="0.05994006">
           <folding />
         </state>
       </provider>

@@ -11,15 +11,29 @@ class Athlete < ApplicationRecord
 
   def store_json_scores(json)
     json.each_with_index do |score,i|
-      if !regional_scores.where(year:2017, workout:i).any?
+      if !regional_scores.where(year:2017, workout:i+1).any? && score
         scoredisplay = score['scoredisplay']
-        score_split = scoredisplay.split(':')
-        minutes = score_split[0]
-        score_split_again = score_split[1].split('.')
-        seconds = score_split_again[0]
-        fraction_seconds = score_split_again[1]
 
-        regional_scores.create({year:2017, workout:i, score: scoredisplay, minutes:minutes, seconds:seconds, fraction_seconds: fraction_seconds })
+        minutes = 10000
+        seconds = 10000
+        fraction_seconds = 10000
+        cap_count = 0
+        is_wd = false
+
+        if scoredisplay && scoredisplay.include?(':')
+          score_split = scoredisplay.split(':')
+          minutes = score_split[0].to_i
+          score_split_again = score_split[1].split('.')
+          seconds = score_split_again[0].to_i
+          fraction_seconds = score_split_again[1].to_i
+        elsif scoredisplay && scoredisplay.include?('CAP')
+          score_split = scoredisplay.split('+')
+          cap_count = score_split[1].to_i
+        elsif scoredisplay.nil? || scoredisplay.include?('WD')
+          is_wd = true
+        end
+
+        regional_scores.create({scoredisplay:scoredisplay, year:2017, workout:i+1, score: scoredisplay, minutes:minutes, seconds:seconds, fraction_seconds: fraction_seconds, cap_count:cap_count, is_wd:is_wd })
       end
     end
   end

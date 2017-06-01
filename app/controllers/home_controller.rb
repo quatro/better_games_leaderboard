@@ -8,6 +8,8 @@ class HomeController < ApplicationController
       end
     end
 
+    # Rank everything by divisions (men, women, team)
+    RegionalCacher.new.rank(2017)
   end
 
 
@@ -18,8 +20,8 @@ class HomeController < ApplicationController
 
   def store_results(results)
     results['athletes'].each do |athlete|
-      athlete = Athlete.get_from_json(athlete)
-      athlete.store_json_scores(athlete['scores']) if athlete['scores']
+      model = Athlete.get_from_json(athlete)
+      model.store_json_scores(athlete['scores']) if athlete['scores']
 
     end
   end

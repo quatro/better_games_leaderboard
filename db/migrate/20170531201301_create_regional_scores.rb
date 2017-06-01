@@ -4,8 +4,8 @@ class CreateRegionalScores < ActiveRecord::Migration[5.0]
     create_table :athletes do |t|
       t.string :name
       t.integer :userid
-      t.string :regionid
-      t.string :division  # Men, Women, Team
+      t.integer :regionid
+      t.integer :division  # Men, Women, Team
 
       t.timestamps
     end
@@ -15,9 +15,12 @@ class CreateRegionalScores < ActiveRecord::Migration[5.0]
       t.integer :year
       t.integer :workout
       t.string :score
-      t.integer :minutes
-      t.integer :seconds
-      t.integer :fraction_seconds
+      t.integer :minutes, default: 10000
+      t.integer :seconds, default: 10000
+      t.integer :fraction_seconds, default: 10000
+      t.integer :cap_count, default: 0
+      t.boolean :is_wd, default: false
+      t.string :scoredisplay
       t.timestamps
     end
   end

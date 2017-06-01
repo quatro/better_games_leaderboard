@@ -1,0 +1,30 @@
+
+%hr
+
+.table-responsive
+  %table.table.table-striped
+    %thead
+      %tr
+        %th.col-sm-1 Pos
+        %th.col-sm-3 Name
+        %th.col-sm-1 Points
+        %th.nowrap 1
+        %th.nowrap 2
+        %th.nowrap 3
+        %th.nowrap 4
+        %th.nowrap 5
+        %th.nowrap 6
+
+    %tbody
+      - results.each do |ra|
+        %tr
+          %td #{ra.rank_overall}
+          %td #{ra.athlete_name}
+          %td #{ra.points_overall}
+          %td #{ra.score_1_display}
+          %td #{ra.score_2_display}
+          %td #{ra.score_3_display}
+          %td #{ra.score_4_display}
+          %td #{ra.score_5_display}
+          %td #{ra.score_6_display}
+

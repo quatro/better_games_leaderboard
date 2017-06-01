@@ -9,10 +9,11 @@ Rails.application.routes.draw do
   get 'regionals' => 'leaderboard#regionals'
   get 'games' => 'leaderboard#games'
   post 'filter' => 'leaderboard#filter'
-  post 'filter' => 'leaderboard#filter_regional'
+  post 'filter_regional' => 'leaderboard#filter_regional'
   post 'search' => 'leaderboard#search'
   get 'about' => 'home#about'
   get 'scrape_regionals' => 'home#scrape_regionals'
+  get 'cross_regional' => 'leaderboard#cross_regional'
 
 
   root 'leaderboard#regionals'

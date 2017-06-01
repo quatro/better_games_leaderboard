@@ -21,8 +21,8 @@ class Filter
 
   def self.regional_options
     {
-        'Atlantic' => 1,
         'California' => 2,
+        'Atlantic' => 1,
         'Central' => 3,
         'East' => 4,
         'Meridian' => 5,

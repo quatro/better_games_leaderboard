@@ -13,7 +13,6 @@ Rails.application.routes.draw do
   post 'search' => 'leaderboard#search'
   get 'about' => 'home#about'
   get 'scrape_regionals' => 'home#scrape_regionals'
-  get 'cache_regionals' => 'home#cache_regionals'
   get 'cross_regional' => 'leaderboard#cross_regional'
 
 

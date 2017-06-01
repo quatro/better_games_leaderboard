@@ -7,12 +7,16 @@ class HomeController < ApplicationController
         store_results(scraper.filter_regional(division, regional, 0, 1))
       end
     end
+
+    render json:{status:'success'}
   end
 
   def cache_regionals
 
     # Rank everything by divisions (men, women, team)
     RegionalCacher.new.rank(2017)
+
+    render json:{status:'success'}
   end
 
 

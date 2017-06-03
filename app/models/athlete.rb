@@ -11,7 +11,9 @@ class Athlete < ApplicationRecord
 
   def store_json_scores(json)
     json.each_with_index do |score,i|
-      if !regional_scores.where(year:2017, workout:i+1).any? && score
+      if score
+        rs = regional_scores.where(year:2017, workout:i+1).first
+
         scoredisplay = score['scoredisplay']
 
         minutes = 10000
@@ -33,7 +35,13 @@ class Athlete < ApplicationRecord
           is_wd = true
         end
 
-        regional_scores.create({scoredisplay:scoredisplay, year:2017, workout:i+1, score: scoredisplay, minutes:minutes, seconds:seconds, fraction_seconds: fraction_seconds, cap_count:cap_count, is_wd:is_wd })
+        hash = {scoredisplay:scoredisplay, year:2017, workout:i+1, score: scoredisplay, minutes:minutes, seconds:seconds, fraction_seconds: fraction_seconds, cap_count:cap_count, is_wd:is_wd }
+
+        if rs
+          rs.update_attributes(hash)
+        else
+          regional_scores.create(hash)
+        end
       end
     end
   end

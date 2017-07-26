@@ -14,7 +14,8 @@ Rails.application.routes.draw do
   get 'about' => 'home#about'
   get 'scrape_regionals' => 'home#scrape_regionals'
   get 'cross-regional' => 'leaderboard#cross_regional'
+  get 'games' => 'leaderboard#games'
 
 
-  root 'leaderboard#regionals'
+  root 'leaderboard#games'
 end

@@ -15,6 +15,7 @@ class LeaderboardController < ApplicationController
     fittest = 1
     division = filter_params[:division]
     regional = filter_params[:regional]
+    games = filter_params[:games]
     fittest1 = filter_params[:fittest1].to_i
     occupation = 0
     sort = filter_params[:sort]
@@ -23,6 +24,9 @@ class LeaderboardController < ApplicationController
     if regional
       results = scraper.filter_regional(division, regional, sort, page)
       return render partial:'regional_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
+    elsif games
+      results = scraper.filter_games(division, sort, page)
+      return render partial:'games_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
     else
       results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, athlete, page)
       return render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}

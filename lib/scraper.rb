@@ -99,6 +99,10 @@ class Scraper
     self.class.get("/competitions/api/v1/competitions/regionals/2017/leaderboards", { query: {division:division, sort:sort, page:page, regional:regional}})
   end
 
+  def filter_games(division, sort, page)
+    self.class.get("/competitions/api/v1/competitions/games/2017/leaderboards", { query: {division:division, sort:sort, page:page}})
+  end
+
   def search(term, division)
     self.class.get("/competitions/api/v1/competitions/open/2017/athletes", { query: {term:term, division: division}})
   end

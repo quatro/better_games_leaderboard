@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/leaderboard/games.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/filter.rb" afterPath="$PROJECT_DIR$/app/models/filter.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/scraper.rb" afterPath="$PROJECT_DIR$/lib/scraper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/about.html.haml" afterPath="$PROJECT_DIR$/app/views/home/about.html.haml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -620,7 +614,7 @@
     <file path="$PROJECT_DIR$/../htri.net/app/admin/page.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490190769006" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/exchanger_optimizer_evaluation/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490195478013" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/become_a_member/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490195509214" ignored="false" />
-    <file path="/*.regexp" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501084959705" ignored="false" />
+    <file path="/*.regexp" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501087403391" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/fouling_test_services_form/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490195528519" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/roster_revision/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490195536450" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/technical_support_inquiry/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490195544723" ignored="false" />
@@ -1674,15 +1668,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="leaderboard_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -1692,10 +1677,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_games_results.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_games_results.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="0" selection-start="1925" selection-end="1925" vertical-scroll-proportion="1.0339661">
+            <state line="69" column="0" selection-start="1925" selection-end="1925" vertical-scroll-proportion="-43.125">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="about.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="71" selection-start="299" selection-end="299" vertical-scroll-proportion="0.2173913">
               <folding />
             </state>
           </provider>
@@ -1778,7 +1772,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/leaderboard/_results_cross_regional.html.haml" />
         <option value="$PROJECT_DIR$/config/application.rb" />
         <option value="$PROJECT_DIR$/app/models/delayed_job.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
@@ -1794,6 +1787,7 @@
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/home/about.html.haml" />
       </list>
     </option>
   </component>
@@ -1898,6 +1892,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="better_games_leaderboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="better_games_leaderboard" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -2229,6 +2245,7 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32992566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19637139" sideWeight="0.67007434" order="0" side_tool="false" content_ui="combo" />
@@ -2240,7 +2257,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2308,13 +2324,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/open.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="17" selection-start="83" selection-end="91" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_js.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="14" selection-start="792" selection-end="800" vertical-scroll-proportion="0.0">
@@ -2420,7 +2429,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1925" selection-end="1925" vertical-scroll-proportion="1.0339661">
+        <state line="69" column="0" selection-start="1925" selection-end="1925" vertical-scroll-proportion="-43.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/about.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="71" selection-start="299" selection-end="299" vertical-scroll-proportion="0.2173913">
           <folding />
         </state>
       </provider>

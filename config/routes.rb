@@ -16,6 +16,8 @@ Rails.application.routes.draw do
   get 'cross-regional' => 'leaderboard#cross_regional'
   get 'games' => 'leaderboard#games'
 
+  get 'hubspot/app/involvements' => 'hubspot#involvements'
+
 
   root 'leaderboard#games'
 end

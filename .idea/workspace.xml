@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/hubspot_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/hubspot_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -1737,6 +1736,8 @@
     <file path="$PROJECT_DIR$/../eag-web/app/controllers/sorting_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502820772687" ignored="false" />
     <file path="/sorting_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502820772687" ignored="false" />
     <file path="/hubspot_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514907949786" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/lib/updaters/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514918849706" ignored="false" />
+    <file path="/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514918846675" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1845,7 +1846,7 @@
       <file leaf-file-name="hubspot_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="105" selection-start="794" selection-end="794" vertical-scroll-proportion="0.31374502">
+            <state line="6" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.08964144">
               <folding />
             </state>
           </provider>
@@ -2521,7 +2522,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="105" selection-start="794" selection-end="794" vertical-scroll-proportion="0.31374502">
+        <state line="6" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.08964144">
           <folding />
         </state>
       </provider>

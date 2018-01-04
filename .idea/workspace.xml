@@ -9,7 +9,7 @@
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501086783491" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501041290101" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514047410039" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515071684055" ignored="false" />
     <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514907718754" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490702556223" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
@@ -25,17 +25,17 @@
     <file path="/wod.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338343507" ignored="false" />
     <file path="/athlete_score.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488379914582" ignored="false" />
     <file path="/athlete.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498082712458" ignored="false" />
-    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1513982297427" ignored="false" />
+    <file path="/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988851193" ignored="false" />
     <file path="/_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488340298245" ignored="false" />
     <file path="/_navmenu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501714069849" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496196951642" ignored="false" />
     <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502675714910" ignored="false" />
-    <file path="/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497362982170" ignored="false" />
+    <file path="/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514992391758" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/helpers/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490206509753" ignored="false" />
     <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497408118026" ignored="false" />
     <file path="/about.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488421134306" ignored="false" />
     <file path="/_header.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341020303" ignored="false" />
-    <file path="/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502392699968" ignored="false" />
+    <file path="/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515036503351" ignored="false" />
     <file path="/bootstrap_and_overrides.css.less" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501100372568" ignored="false" />
     <file path="/bootstrap_and_overrides.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501525461931" ignored="false" />
     <file path="/leaderboard_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501086959367" ignored="false" />
@@ -68,7 +68,7 @@
     <file path="/api_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497405383995" ignored="false" />
     <file path="/company_confirmed.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488394035653" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/devise/passwords/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488395208551" ignored="false" />
-    <file path="/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497470061866" ignored="false" />
+    <file path="/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514991109065" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/devise/passwords/edit.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490704345845" ignored="false" />
     <file path="/edit.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496836124913" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/vendor/assets/smartbox/smartbox/stylesheets/theme.css" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488395361742" ignored="false" />
@@ -227,8 +227,8 @@
     <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_box_schedules/_control_configuration.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490709791800" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/controllers/terminal_box_schedules_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490550544365" ignored="false" />
     <file path="/_conditional_containers.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490551183932" ignored="false" />
-    <file path="/terminal_box_schedule_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488596837244" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/models/terminal_box_schedule_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488596840010" ignored="false" />
+    <file path="/terminal_box_schedule_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515070079776" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/terminal_box_schedule_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515070250450" ignored="false" />
     <file path="/terminal_box_schedules_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490550544365" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/cond_in_cont_instances/_row_remote.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490551494207" ignored="false" />
     <file path="/_row_remote.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489269595675" ignored="false" />
@@ -284,7 +284,7 @@
     <file path="$PROJECT_DIR$/../eag-web/app/models/point_to_point_verification.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501729736011" ignored="false" />
     <file path="/point_to_point_verification.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501729734017" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/sections/_our_work.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488896679540" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502227480276" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/config/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515071380057" ignored="false" />
     <file path="/application_settings.yml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502227480276" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/cond_in_cont_instances/_row.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488898378593" ignored="false" />
     <file path="/_row.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488898368904" ignored="false" />
@@ -390,7 +390,7 @@
     <file path="$PROJECT_DIR$/../hyperfit/db/migrate/20150607221648_add_friendly_id_slugs.forem.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488990459447" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/controllers/registrations_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489000029759" ignored="false" />
     <file path="/registrations_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489000028255" ignored="false" />
-    <file path="/populate.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502136318992" ignored="false" />
+    <file path="/populate.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515072286187" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/.ruby-version" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489008113881" ignored="false" />
     <file path="/.ruby-version" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489008112743" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/app/views/segment_scores/_display_score.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489008836838" ignored="false" />
@@ -453,8 +453,8 @@
     <file path="$PROJECT_DIR$/../eag-web/app/controllers/airflow_profiles_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489103070906" ignored="false" />
     <file path="/airflow_profiles_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489103067786" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/airflow_profiles/_show.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1489115116237" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/models/project.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498438398006" ignored="false" />
-    <file path="/project.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498437733718" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/project.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035048486" ignored="false" />
+    <file path="/project.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035047414" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/controllers/static_pages_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501158016838" ignored="false" />
     <file path="/static_pages_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493292845288" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/concerns/newsable.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490125062454" ignored="false" />
@@ -480,7 +480,7 @@
     <file path="/saveables_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491076431952" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_units/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502200883829" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/grills/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502200859045" ignored="false" />
-    <file path="/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502200858681" ignored="false" />
+    <file path="/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514992241272" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_unit_details/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502201013095" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/terminal_units/_basic_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502156840027" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/models/report_config.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498438217590" ignored="false" />
@@ -561,8 +561,8 @@
     <file path="$PROJECT_DIR$/../eag-web/app/views/fan_items/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491160360694" ignored="false" />
     <file path="/_testable_data_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490064695160" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/test_conditionables/testable_data_forms/_testable_data_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490064695160" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/assets/stylesheets/bootstrap_and_overrides.css.less.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492136703108" ignored="false" />
-    <file path="/bootstrap_and_overrides.css.less.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492136702408" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/assets/stylesheets/bootstrap_and_overrides.css.less.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035605138" ignored="false" />
+    <file path="/bootstrap_and_overrides.css.less.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035605138" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/systems/_config_ahu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497705461253" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/models/system.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502119433389" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/lib/equipment_tree/system_node.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496926573724" ignored="false" />
@@ -703,7 +703,7 @@
     <file path="/consolidated_list_services.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490626346088" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/lib/htri/s3_resource.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490625964883" ignored="false" />
     <file path="/s3_resource.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490625962058" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/populate.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502136325830" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/populate.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515072289255" ignored="false" />
     <file path="$PROJECT_DIR$/../dominican/app/mailers/email_mailer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498145116925" ignored="false" />
     <file path="/email_mailer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498145110323" ignored="false" />
     <file path="$PROJECT_DIR$/../dominican/app/models/email.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498145471404" ignored="false" />
@@ -783,12 +783,12 @@
     <file path="$PROJECT_DIR$/../eag-web/app/views/pump_items/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491160000632" ignored="false" />
     <file path="/system_fan.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491160138072" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/models/system_fan.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491160138072" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/conditional_inputs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491161558972" ignored="false" />
-    <file path="/conditional_inputs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491161554790" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/conditional_input_containers.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491163278899" ignored="false" />
-    <file path="/conditional_input_containers.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491163219357" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/terminal_box_schedule_configs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491162872523" ignored="false" />
-    <file path="/terminal_box_schedule_configs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491162817654" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/conditional_inputs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515037637228" ignored="false" />
+    <file path="/conditional_inputs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515037531718" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/conditional_input_containers.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515038433762" ignored="false" />
+    <file path="/conditional_input_containers.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515038374444" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/terminal_box_schedule_configs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515070198958" ignored="false" />
+    <file path="/terminal_box_schedule_configs.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515070198208" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/spec/factories/users.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491163007031" ignored="false" />
     <file path="/users.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491162999961" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/db/migrate/20141103024337_add_order_to_all_data_page_models.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1491163540017" ignored="false" />
@@ -880,8 +880,8 @@
     <file path="$PROJECT_DIR$/../htri_research/app/views/rig_versions/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493322625352" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/assets/javascripts/application.js" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496843321893" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/views/test_sections/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492113929747" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/app/models/test_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492113069604" ignored="false" />
-    <file path="/test_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492113069604" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/test_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515073050796" ignored="false" />
+    <file path="/test_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515073047710" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/importers/rig_data/htfu_sleeved_importer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492113978386" ignored="false" />
     <file path="/htfu_sleeved_importer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492113977626" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/experiment_importer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498160153917" ignored="false" />
@@ -889,7 +889,7 @@
     <file path="$PROJECT_DIR$/../htri_research/app/models/completed_job.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492114604872" ignored="false" />
     <file path="/completed_job.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492114580214" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/views/delayed_jobs/_index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496839070539" ignored="false" />
-    <file path="/_index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496839069563" ignored="false" />
+    <file path="/_index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035064109" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/concerns/delayed_job_concern.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492114566233" ignored="false" />
     <file path="/delayed_job_concern.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492114566233" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/controllers/delayed_jobs_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496839150651" ignored="false" />
@@ -900,8 +900,8 @@
     <file path="$PROJECT_DIR$/../eag-web/app/views/coil_steam_lines/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496334098226" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/db/migrate/20170413211232_update_steam_coil_lines.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492129655315" ignored="false" />
     <file path="/20170413211232_update_steam_coil_lines.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492129655315" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/input_names.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493512848781" ignored="false" />
-    <file path="/input_names.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493512837942" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/input_names.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514954757052" ignored="false" />
+    <file path="/input_names.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514954752819" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/coil_steams/_basic_table_header_2.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492129750386" ignored="false" />
     <file path="/coil_steam_line.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492129983917" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/lib/reports/headers/aggregate_coil.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1492129955501" ignored="false" />
@@ -984,19 +984,19 @@
     <file path="$PROJECT_DIR$/../htri.net/db/migrate/20170425021536_update_sendgrid_bounces.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493086551809" ignored="false" />
     <file path="$PROJECT_DIR$/../hyperfit/lib/wodfollow/authorizers/authorizer_user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493206612065" ignored="false" />
     <file path="/authorizer_user.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493206606944" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/app/models/experiment_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496773417800" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/experiment_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994583065" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/importers/rig_data/importer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493255642441" ignored="false" />
     <file path="/importer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493255636598" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/field.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493235438098" ignored="false" />
     <file path="/field.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493235269908" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/import_mapping.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493225157731" ignored="false" />
     <file path="/import_mapping.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493225155738" ignored="false" />
-    <file path="/experiment_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496773414938" ignored="false" />
+    <file path="/experiment_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994580755" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/stability.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496773634969" ignored="false" />
     <file path="/stability.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496773630297" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/importers/rig_data/importer_profile.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493240288116" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/controllers/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493234528553" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501085872700" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/config/routes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514989575998" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/reference_point/locator.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493256153352" ignored="false" />
     <file path="/locator.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493256152221" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/experiment_section_timestamp.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498054422903" ignored="false" />
@@ -1222,8 +1222,8 @@
     <file path="/pictures.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496679869047" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/controllers/employee_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496692162365" ignored="false" />
     <file path="/employee_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496692162365" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/views/application/_input_context_menu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496697758121" ignored="false" />
-    <file path="/_input_context_menu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496697641805" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/application/_input_context_menu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035677222" ignored="false" />
+    <file path="/_input_context_menu.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035671668" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/lib/reports/report_printers/child_printers/air_handler_child.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497886086755" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/lib/reports/report_printers/air_handler.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497886232714" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/clone/air_handler.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496713976680" ignored="false" />
@@ -1436,8 +1436,8 @@
     <file path="$PROJECT_DIR$/../dominican/app/views/athletes/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501645200316" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/bulk_delta_t_fahrenheit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497532226400" ignored="false" />
     <file path="/bulk_delta_t_fahrenheit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497532223016" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/conduction_serializer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498228112707" ignored="false" />
-    <file path="/conduction_serializer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498225962330" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/conduction_serializer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994654438" ignored="false" />
+    <file path="/conduction_serializer.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994652804" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/db/migrate/20170614143410_create_calculation_composite_type_options.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497452132145" ignored="false" />
     <file path="/20170614143410_create_calculation_composite_type_options.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497452131267" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/calculation_composite_type_option.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497451196468" ignored="false" />
@@ -1459,7 +1459,7 @@
     <file path="/20170614151321_add_to_calculation_composite.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497453241807" ignored="false" />
     <file path="/calculation_composite.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497533625279" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/calculation_composite.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497533651117" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/app/models/fouling_calculation_template.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498075242891" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/fouling_calculation_template.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988260916" ignored="false" />
     <file path="/fouling_calculation_template.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497477463251" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/views/fouling_calculation_templates/show.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497456615983" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/app/models/calculation_field.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497533641360" ignored="false" />
@@ -1477,16 +1477,16 @@
     <file path="/viscosity_cp.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497535027017" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/temp_sleeve_delta_t_fahrenheit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497538740454" ignored="false" />
     <file path="/temp_sleeve_delta_t_fahrenheit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497534164056" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/velocity_ft_s.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497538748867" ignored="false" />
-    <file path="/velocity_ft_s.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497532606654" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/velocity_ft_s.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994765042" ignored="false" />
+    <file path="/velocity_ft_s.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994760662" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/resolver.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497532912055" ignored="false" />
     <file path="/resolver.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497532911211" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/avg_bulk_fahrenheit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497533776364" ignored="false" />
     <file path="/avg_bulk_fahrenheit.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497533773301" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498160162117" ignored="false" />
     <file path="/helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498160162842" ignored="false" />
-    <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/reynolds.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497538727089" ignored="false" />
-    <file path="/reynolds.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1497535403731" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/reynolds.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994714145" ignored="false" />
+    <file path="/reynolds.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994710306" ignored="false" />
     <file path="$PROJECT_DIR$/../htri_research/lib/htri/fouling/conduction.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498077221633" ignored="false" />
     <file path="/conduction.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498077219132" ignored="false" />
     <file path="/fouling_result.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501076850872" ignored="false" />
@@ -1678,15 +1678,15 @@
     <file path="/20170807150601_change_report_widget_summary_detail.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502118389345" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/db/migrate/20170807200304_add_to_report_column_header_info.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502136225661" ignored="false" />
     <file path="/20170807200304_add_to_report_column_header_info.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502136225313" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/models/conditional_input_container.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502136383062" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/conditional_input_container.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515037928348" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/conditional_input_containers/_row_inputs.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502156793649" ignored="false" />
     <file path="/_basic_footer.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502156834717" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/project_engineers/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502201197127" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/projects/_engineers.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502201212885" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/db/migrate/20170808164047_add_to_input_comment_drl.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502225089296" ignored="false" />
     <file path="/20170808164047_add_to_input_comment_drl.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502225089296" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/models/input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1513993241696" ignored="false" />
-    <file path="/input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1513993240173" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514956581727" ignored="false" />
+    <file path="/input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514956199290" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/projects/mnl.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502761317657" ignored="false" />
     <file path="/mnl.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502761317657" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/lib/models/mrl_filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502224347140" ignored="false" />
@@ -1702,7 +1702,7 @@
     <file path="$PROJECT_DIR$/../eag-web/app/inputs/no_label_tinymce_input.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502241077849" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/db/migrate/20170809011247_create_input_comment_notes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502241266951" ignored="false" />
     <file path="/20170809011247_create_input_comment_notes.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502241265377" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/models/input_comment_approval.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502241459186" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/input_comment_approval.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514956816269" ignored="false" />
     <file path="/input_comment_approval.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502241451966" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/models/input_comment_note.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502241475564" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/views/input_comment_notes/_input_comment_note.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502242973919" ignored="false" />
@@ -1736,8 +1736,53 @@
     <file path="$PROJECT_DIR$/../eag-web/app/controllers/sorting_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502820772687" ignored="false" />
     <file path="/sorting_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502820772687" ignored="false" />
     <file path="/hubspot_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514907949786" ignored="false" />
-    <file path="$PROJECT_DIR$/../eag-web/app/lib/updaters/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514918849706" ignored="false" />
-    <file path="/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514918846675" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/lib/updaters/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955886702" ignored="false" />
+    <file path="/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955886019" ignored="false" />
+    <file path="/lab_airflow_mode_line.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955253285" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/lab_airflow_mode_line.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955253285" ignored="false" />
+    <file path="/lab_airflow_mode.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955230272" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/lab_airflow_mode.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955230272" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/input_comments/_approvals.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955639834" ignored="false" />
+    <file path="/_approvals.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955633054" ignored="false" />
+    <file path="/input_comment_approvals_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514957101101" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/controllers/input_comment_approvals_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514957101101" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/input_comment_log.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514956234561" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/lab_airflow_rooms/config_rooms.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514957944267" ignored="false" />
+    <file path="/config_rooms.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514957758393" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/db/migrate/20180103135503_move_test_sections_to_import.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514987957746" ignored="false" />
+    <file path="/20180103135503_move_test_sections_to_import.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514987956852" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/import_test_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988156282" ignored="false" />
+    <file path="/import_test_section.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988155937" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/rig_style.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988198321" ignored="false" />
+    <file path="/rig_style.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988198321" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/rig.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988207096" ignored="false" />
+    <file path="/rig.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988207096" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/import.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994935260" ignored="false" />
+    <file path="/import.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514988320493" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/views/imports/new.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514991121425" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/helpers/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514992515004" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/controllers/import_test_sections_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514993173090" ignored="false" />
+    <file path="/import_test_sections_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514993173090" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/rig_version.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514989243478" ignored="false" />
+    <file path="/rig_version.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514989241529" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/views/import_test_sections/_fields.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514992241272" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/views/test_section_locations/_form.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514993263870" ignored="false" />
+    <file path="/experiment_test.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994201195" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/models/experiment_test.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994419370" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/app/views/fouling_results/_filter_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994564758" ignored="false" />
+    <file path="/_filter_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994554932" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/lib/tasks/import.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994806984" ignored="false" />
+    <file path="$PROJECT_DIR$/../htri_research/lib/tasks/import_ts.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514994822688" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/db/migrate/20180103203330_add_timestamps_to_input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515011752554" ignored="false" />
+    <file path="/20180103203330_add_timestamps_to_input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515011752554" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/models/concerns/sync_record.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515012870059" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/projects/_index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515035066262" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/app/views/conditional_inputs/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515036505154" ignored="false" />
+    <file path="/conditional_input_container.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515037926839" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/add_equipment.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515072901601" ignored="false" />
+    <file path="/add_equipment.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515072901043" ignored="false" />
+    <file path="$PROJECT_DIR$/../eag-web/lib/tasks/add_guids.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515072155375" ignored="false" />
+    <file path="/add_guids.rake" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515072155375" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1846,7 +1891,7 @@
       <file leaf-file-name="hubspot_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.08964144">
+            <state line="13" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="0.1942231">
               <folding />
             </state>
           </provider>
@@ -2522,7 +2567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="146" selection-end="146" vertical-scroll-proportion="0.08964144">
+        <state line="13" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="0.1942231">
           <folding />
         </state>
       </provider>

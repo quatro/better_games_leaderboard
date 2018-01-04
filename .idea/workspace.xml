@@ -1735,7 +1735,7 @@
     <file path="/20170815010725_add_report_order_to_input_comment.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502759271447" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/controllers/sorting_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502820772687" ignored="false" />
     <file path="/sorting_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1502820772687" ignored="false" />
-    <file path="/hubspot_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514907949786" ignored="false" />
+    <file path="/hubspot_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515077875298" ignored="false" />
     <file path="$PROJECT_DIR$/../eag-web/app/lib/updaters/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955886702" ignored="false" />
     <file path="/approval_updater.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955886019" ignored="false" />
     <file path="/lab_airflow_mode_line.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1514955253285" ignored="false" />
@@ -1891,7 +1891,7 @@
       <file leaf-file-name="hubspot_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="0.1942231">
+            <state line="13" column="45" selection-start="433" selection-end="433" vertical-scroll-proportion="0.1942231">
               <folding />
             </state>
           </provider>
@@ -2567,7 +2567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="413" selection-end="413" vertical-scroll-proportion="0.1942231">
+        <state line="13" column="45" selection-start="433" selection-end="433" vertical-scroll-proportion="0.1942231">
           <folding />
         </state>
       </provider>

@@ -1891,7 +1891,7 @@
       <file leaf-file-name="hubspot_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="45" selection-start="433" selection-end="433" vertical-scroll-proportion="0.1942231">
+            <state line="6" column="61" selection-start="147" selection-end="147" vertical-scroll-proportion="0.08964144">
               <folding />
             </state>
           </provider>
@@ -2567,7 +2567,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/hubspot_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="433" selection-end="433" vertical-scroll-proportion="0.1942231">
+        <state line="6" column="61" selection-start="147" selection-end="147" vertical-scroll-proportion="0.08964144">
           <folding />
         </state>
       </provider>

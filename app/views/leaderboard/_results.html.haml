@@ -1,5 +1,5 @@
-- first_athlete = results['athletes'].first
-- first_athlete_scores = first_athlete['scores']
+-#- first_athlete = results['athletes'].first
+-#- first_athlete_scores = first_athlete['scores']
 
 =render 'navigation', current_page: current_page, last_page: last_page
 
@@ -10,26 +10,30 @@
         %th.col-sm-1 Pos
         %th.col-sm-3 Name
         %th.col-sm-1 Points
-        %th.nowrap 17.1
-        %th.nowrap 17.2
-        %th.nowrap 17.3
-        %th.nowrap 17.4
-        %th.nowrap 17.5
+        %th.nowrap 18.1
+        %th.nowrap 18.2
+        %th.nowrap 18.2a
+        %th.nowrap 18.3
+        %th.nowrap 18.4
+        %th.nowrap 18.5
 
     %tbody
-      - results['athletes'].each do |athlete|
-        %tr{:id => athlete['userid']}
-          %td #{athlete['overallrank']}
-          %td #{athlete['name']}
-          %td #{athlete['overallscore']}
-          - athlete['scores'].each do |score|
-            - scoredetails = score['scoredetails']
-            - if scoredetails && scoredetails['breakdown']
-              %td
-                %button.poppy.btn.btn-default{type:'button', data:{toggle:"popover", placement:'top', container:'body', content:scoredetails['breakdown']}}
-                  #{score['workoutrank']} (#{score['scoredisplay']})
-            - else
+      - results['leaderboardRows'].each do |row|
+        - athlete = row['entrant']
+        %tr{:id => athlete['competitorId']}
+          %td #{row['overallRank']}
+          %td #{athlete['competitorName']}
+          %td #{row['overallScore']}
+          - row['scores'].each do |score|
+            -#- scoredetails = score['scoredetails']
+            -#- if scoredetails && scoredetails['breakdown']
+            %td
+              %button.poppy.btn.btn-default{type:'button', data:{toggle:"popover", placement:'top', container:'body', content:score['scoreDisplay']}}
+                #{score['rank']} (#{score['scoreDisplay']})
+            -#- else
               %td #{score['scoredisplay']}
+          - (row['scores'].count..6).each do |i|
+            %td &nbsp;
 
 =render 'navigation', current_page: current_page, last_page: last_page
 

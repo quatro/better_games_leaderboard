@@ -10,7 +10,7 @@ class LeaderboardController < ApplicationController
     filter_params
     page = !filter_params[:page].blank? ? filter_params[:page] : 1
     competition = 1
-    year = 2017
+    year = 2018
     scaled = 0
     fittest = 1
     division = filter_params[:division]
@@ -29,7 +29,7 @@ class LeaderboardController < ApplicationController
       return render partial:'games_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
     else
       results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, athlete, page)
-      return render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
+      return render partial:'results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['pagination']['totalpages'].to_i, athlete:athlete}
     end
   end
 

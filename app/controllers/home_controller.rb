@@ -5,7 +5,7 @@ class HomeController < ApplicationController
     RegionalScraper.new.delay.scrape
 
     # Rank everything by divisions (men, women, team)
-    RegionalCacher.new.delay.rank(2017)
+    RegionalCacher.new.delay.rank(2018)
 
     render json:{status:'success'}
   end

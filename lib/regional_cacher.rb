@@ -27,7 +27,7 @@ class RegionalCacher
     [1,2,11].each do |division|
     #[1].each do |division|
       (1..6).each do |workout|
-        RegionalScore.joins(:athlete).where(year:2017, workout:workout).where('athletes.division = ?', division).rank.each_with_index do |rs,i|
+        RegionalScore.joins(:athlete).where(year:2018, workout:workout).where('athletes.division = ?', division).rank.each_with_index do |rs,i|
           ra = RegionalAthlete.get_from_year_athlete(year, rs.athlete)
           ra.assign_regional_score_for_workout(rs, {workout: rs.workout, regional_athlete:ra, regional_score:rs, rank: i+1, points:score_table[i+1], scoredisplay:rs.scoredisplay})
         end

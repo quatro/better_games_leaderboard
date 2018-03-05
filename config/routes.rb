@@ -19,5 +19,5 @@ Rails.application.routes.draw do
   get 'hubspot/app/involvements' => 'hubspot#involvements'
 
 
-  root 'leaderboard#games'
+  root 'leaderboard#open'
 end

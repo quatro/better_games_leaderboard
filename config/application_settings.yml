@@ -5,10 +5,10 @@
 # in this YAML file should be directly available in the ApplicationSettings class.
 
 all:
-  current_year: 2017
+  current_year: 2018
 
 development:
-  current_year: 2017
+  current_year: 2018
 
 production:
 

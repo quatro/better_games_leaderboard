@@ -89,26 +89,49 @@ class Filter
 
   def self.fittest1_options
     {
-        '1' => {
-          'Worldwide' => 0,
-          'Africa' => 1,
-          'Asia' => 2,
-          'Australia' => 3,
-          'Canada East' => 4,
-          'Canada West' => 5,
-          'Central East' => 6,
-          'Europe' => 7,
-          'Latin America' => 8,
-          'Mid Atlantic' => 9,
-          'North Central' => 10,
-          'North East' => 11,
-          'Northern California' => 12,
-          'North West' => 13,
-          'South Central' => 14,
-          'South East' => 15,
-          'Southern California' => 16,
-          'South West' => 17
+        '1' =>
+        {
+            'Worldwide' => 0,
+            'Africa Middle East' => 25,
+            'Asia' => 20,
+            'Australia' => 21,
+            'Canada East' => 18,
+            'Canada West' => 5,
+            'Central America' => 26,
+            'Central East' => 6,
+            'Europe Central' => 23,
+            'Europe North' => 22,
+            'Europe South' => 24,
+            'Mid Atlantic' => 9,
+            'North Central' => 10,
+            'North East' => 11,
+            'South America' => 27,
+            'South Central' => 14,
+            'South East' => 15,
+            'South West' => 17,
+            'West Coast' => 19
         },
+
+        #{
+        #  'Worldwide' => 0,
+        #  'Africa' => 1,
+        #  'Asia' => 2,
+        #  'Australia' => 3,
+        #  'Canada East' => 4,
+        #  'Canada West' => 5,
+        #  'Central East' => 6,
+        #  'Europe' => 7,
+        #  'Latin America' => 8,
+        #  'Mid Atlantic' => 9,
+        #  'North Central' => 10,
+        #  'North East' => 11,
+        #  'Northern California' => 12,
+        #  'North West' => 13,
+        #  'South Central' => 14,
+        #  'South East' => 15,
+        #  'Southern California' => 16,
+        #  'South West' => 17
+        #},
         '2' =>
               {
                 "Afghanistan" =>                               "AF",
@@ -383,13 +406,22 @@ class Filter
   end
 
   def self.sort_options
+    #{
+    #    'Overall' => 0,
+    #    '17.1' => 1,
+    #    '17.2' => 2,
+    #    '17.3' => 3,
+    #    '17.4' => 4,
+    #    '17.5' => 5
+    #}
     {
         'Overall' => 0,
-        '17.1' => 1,
-        '17.2' => 2,
-        '17.3' => 3,
-        '17.4' => 4,
-        '17.5' => 5
+        '18.1' => 1,
+        '18.2' => 2,
+        '18.2a' => 3,
+        '18.3' => 4,
+        '18.4' => 5,
+        '18.5' => 6
     }
   end
 

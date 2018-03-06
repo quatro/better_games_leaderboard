@@ -2,26 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/application_settings.yml" afterPath="$PROJECT_DIR$/config/application_settings.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/athlete.rb" afterPath="$PROJECT_DIR$/app/models/athlete.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/cross_regional.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/cross_regional.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/filter.rb" afterPath="$PROJECT_DIR$/app/models/filter.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/games.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/games.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/open.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/open.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/regional_cacher.rb" afterPath="$PROJECT_DIR$/lib/regional_cacher.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/scraper.rb" afterPath="$PROJECT_DIR$/lib/scraper.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
-    <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501086783491" ignored="false" />
+    <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1520295491042" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501041290101" ignored="false" />
     <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1520293187949" ignored="false" />
     <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1520290352554" ignored="false" />
@@ -1983,7 +1969,7 @@
       <file leaf-file-name="leaderboard_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="4" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
+            <state line="30" column="27" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2007,10 +1993,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="open.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="open.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/open.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="46" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20801233">
+            <state line="9" column="46" selection-start="212" selection-end="212" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -2034,10 +2020,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="scraper.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="scraper.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="92" selection-start="3537" selection-end="3537" vertical-scroll-proportion="0.0">
+            <state line="93" column="194" selection-start="2798" selection-end="2798" vertical-scroll-proportion="0.42424244">
               <folding />
             </state>
           </provider>
@@ -2097,13 +2083,13 @@
         <option value="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
         <option value="$PROJECT_DIR$/config/application_settings.yml" />
         <option value="$PROJECT_DIR$/lib/regional_cacher.rb" />
-        <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml" />
         <option value="$PROJECT_DIR$/app/models/filter.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/open.html.haml" />
+        <option value="$PROJECT_DIR$/lib/scraper.rb" />
       </list>
     </option>
   </component>
@@ -2708,13 +2694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="92" selection-start="3537" selection-end="3537" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="24" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0">
@@ -2736,13 +2715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="4" selection-start="505" selection-end="505" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="427" column="20" selection-start="21215" selection-end="21215" vertical-scroll-proportion="0.0">
@@ -2752,7 +2724,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/open.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="46" selection-start="212" selection-end="212" vertical-scroll-proportion="0.20801233">
+        <state line="9" column="46" selection-start="212" selection-end="212" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="27" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="194" selection-start="2798" selection-end="2798" vertical-scroll-proportion="0.42424244">
           <folding />
         </state>
       </provider>

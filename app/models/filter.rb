@@ -56,6 +56,38 @@ class Filter
     }
   end
 
+  def self.agoq_division_options
+    {
+        'Teenage Girls (14-15)' => 15,
+        'Teenage Boys (14-15)' => 14,
+        'Teenage Girls (16-17)' => 17,
+        'Teenage Boys (16-17)' => 16,
+        'Masters Women (35-39)' => 19,
+        'Masters Men (35-39)' => 18,
+        'Masters Women (40-44)' => 13,
+        'Masters Men (40-44)' => 12,
+        'Masters Women (45-49)' => 4,
+        'Masters Men (45-49)' => 3,
+        'Masters Women (50-54)' => 6,
+        'Masters Men (50-54)' => 5,
+        'Masters Women (55-59)' => 8,
+        'Masters Men (55-59)' => 7,
+        'Masters Women (60+)' => 10,
+        'Masters Men (60+)' => 9
+    }
+  end
+
+  def self.competition_options
+    {
+        'Open' => 1,
+        'Online Qualifer' => 4,
+        'Regionals' => 2,
+        'Games' => 3,
+        'Team Series' => 5,
+        'Liftoff' => 6,
+    }
+  end
+
   def self.regional_division_options
     {
         'Individual Men' => 1,
@@ -434,6 +466,23 @@ class Filter
         '4' => 4,
         '5' => 5,
         '6' => 6,
+    }
+  end
+
+  def self.online_qualifier_options
+    {
+        'Overall' => 0,
+        'Open Finish' => 1,
+        'Workout 1' => 2,
+        'Workout 2' => 3,
+        'Workout 3' => 4,
+        'Workout 4' => 5
+    }
+  end
+
+  def self.year_options
+    {
+        '2018' => 2018
     }
   end
 end

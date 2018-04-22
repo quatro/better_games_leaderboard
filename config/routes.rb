@@ -6,6 +6,7 @@ Rails.application.routes.draw do
 
   get 'leaderboard' => 'leaderboard#index'
   get 'open' => 'leaderboard#open'
+  get 'online_qualifier' => 'leaderboard#online_qualifier'
   get 'regionals' => 'leaderboard#regionals'
   get 'games' => 'leaderboard#games'
   post 'filter' => 'leaderboard#filter'
@@ -19,5 +20,5 @@ Rails.application.routes.draw do
   get 'hubspot/app/involvements' => 'hubspot#involvements'
 
 
-  root 'leaderboard#open'
+  root 'leaderboard#online_qualifier'
 end

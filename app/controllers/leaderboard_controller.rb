@@ -3,14 +3,15 @@ class LeaderboardController < ApplicationController
 
   def open; end
   def regionals; end
+  def online_qualifier; end
   def games; end
   def cross_regional; end
 
   def filter
     filter_params
     page = !filter_params[:page].blank? ? filter_params[:page] : 1
-    competition = 1
-    year = 2018
+    competition = filter_params.has_key?(:competition) ? filter_params[:competition] : 1
+    year = filter_params.has_key?(:year) ? filter_params[:year] : 2018
     scaled = 0
     fittest = 1
     division = filter_params[:division]
@@ -21,9 +22,15 @@ class LeaderboardController < ApplicationController
     sort = filter_params[:sort]
     athlete = params[:athlete_id] 
 
-    if regional
+    is_online_qualifier = competition == '4'
+
+    if is_online_qualifier
+      results = scraper.filter_online_qualifier(division, year, sort, page)
+      return render partial:'online_qualifier_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
+    elsif regional
       results = scraper.filter_regional(division, regional, sort, page)
-      return render partial:'regional_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
+      hash = JSON.parse(results.body)
+      return render partial:'regional_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:hash['pagination']['totalPages'].to_i, athlete:athlete}
     elsif games
       results = scraper.filter_games(division, sort, page)
       return render partial:'games_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}

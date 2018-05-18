@@ -28,7 +28,7 @@ class LeaderboardController < ApplicationController
       results = scraper.filter_online_qualifier(division, year, sort, page)
       return render partial:'online_qualifier_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
     elsif regional
-      results = scraper.filter_regional(division, regional, sort, page)
+      results = scraper.filter_regional(division, year, regional, sort, page)
       hash = JSON.parse(results.body)
       return render partial:'regional_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:hash['pagination']['totalPages'].to_i, athlete:athlete}
     elsif games

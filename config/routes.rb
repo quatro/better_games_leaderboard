@@ -20,5 +20,6 @@ Rails.application.routes.draw do
   get 'hubspot/app/involvements' => 'hubspot#involvements'
 
 
-  root 'leaderboard#online_qualifier'
+  #root 'leaderboard#online_qualifier'
+  root 'leaderboard#regionals'
 end

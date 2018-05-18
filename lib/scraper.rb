@@ -95,8 +95,8 @@ class Scraper
     end
   end
 
-  def filter_regional(division, regional, sort, page)
-    self.class.get("/competitions/api/v1/competitions/regionals/2018/leaderboards", { query: {division:division, sort:sort, page:page, regional:regional}})
+  def filter_regional(division, year, regional, sort, page)
+    self.class.get("/competitions/api/v1/competitions/regionals/#{year}/leaderboards", { query: {division:division, sort:sort, page:page, regional:regional}})
   end
 
   def filter_online_qualifier(division, year, sort, page)

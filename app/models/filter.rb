@@ -19,16 +19,30 @@ class Filter
     {'Open' => 1}
   end
 
+  #def self.regional_options
+  #  {
+  #      'California' => 2,
+  #      'Atlantic' => 1,
+  #      'Central' => 3,
+  #      'East' => 4,
+  #      'Meridian' => 5,
+  #      'Pacific' => 6,
+  #      'South' => 7,
+  #      'West' => 8
+  #  }
+  #end
   def self.regional_options
     {
-        'California' => 2,
-        'Atlantic' => 1,
-        'Central' => 3,
-        'East' => 4,
-        'Meridian' => 5,
-        'Pacific' => 6,
-        'South' => 7,
-        'West' => 8
+        'East' => 21,
+        'Europe' => 22,
+        'South' => 23,
+        'Central' => 24,
+        'West' => 25,
+        'Latin America' => 26,
+        'Atlantic' => 27,
+        'Meridian' => 28,
+        'Pacific' => 29,
+        'All' => 32
     }
   end
 

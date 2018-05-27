@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/filter.rb" afterPath="$PROJECT_DIR$/app/models/filter.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/scraper.rb" afterPath="$PROJECT_DIR$/lib/scraper.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" afterPath="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
@@ -14,8 +10,8 @@
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
     <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1526677510415" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1521517015258" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1526677588885" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1526676604091" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1527437079597" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1527437145748" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490702556223" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
     <file path="/filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1526677417217" ignored="false" />
@@ -1136,7 +1132,7 @@
     <file path="/_asset_public.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493831743591" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/views/admin/_asset_js.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493832162156" ignored="false" />
     <file path="/_asset_js.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1493832104280" ignored="false" />
-    <file path="/regionals.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1524345495280" ignored="false" />
+    <file path="/regionals.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1527437107052" ignored="false" />
     <file path="/open.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496318136212" ignored="false" />
     <file path="/_regional_results.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501087038728" ignored="false" />
     <file path="/sendgrid_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1496176503092" ignored="false" />
@@ -2211,43 +2207,43 @@
       <file leaf-file-name="leaderboard_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="33" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+            <state line="17" column="4" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_regional_results.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_regional_results.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="28" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.7457627">
+            <state line="94" column="28" selection-start="2524" selection-end="2524" vertical-scroll-proportion="-11.416667">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_results.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_results.html.haml">
+      <file leaf-file-name="regionals.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="58" selection-start="0" selection-end="2162" vertical-scroll-proportion="0.0">
+            <state line="10" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="0.2311248">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_online_qualifier_results.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml">
+      <file leaf-file-name="regional_cacher.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/regional_cacher.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="112" selection-start="97" selection-end="2164" vertical-scroll-proportion="-25.791666">
+            <state line="41" column="83" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_games_results.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml">
+      <file leaf-file-name="athlete.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/athlete.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="2" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+            <state line="8" column="69" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2256,16 +2252,16 @@
       <file leaf-file-name="online_qualifier.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="74" selection-start="253" selection-end="253" vertical-scroll-proportion="-6.25">
+            <state line="7" column="78" selection-start="143" selection-end="143" vertical-scroll-proportion="-4.375">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="filter.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
+      <file leaf-file-name="_online_qualifier_results.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="41" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
+            <state line="75" column="112" selection-start="97" selection-end="2164" vertical-scroll-proportion="-23.291666">
               <folding />
             </state>
           </provider>
@@ -2280,19 +2276,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="85" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="scraper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="119" selection-start="3497" selection-end="3497" vertical-scroll-proportion="0.0">
+            <state line="107" column="88" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2324,7 +2311,6 @@
         <option value="$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/open.html.haml" />
-        <option value="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
@@ -2332,6 +2318,7 @@
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
         <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
       </list>
     </option>
   </component>
@@ -2366,6 +2353,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -2495,18 +2483,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: better_games_leaderboard">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -2792,7 +2779,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21344717" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21558164" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2878,26 +2865,9 @@
         <state line="10" column="20" selection-start="333" selection-end="333" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/athlete.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="47" selection-start="1240" selection-end="1240" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/regional_cacher.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="57" selection-start="1076" selection-end="1076" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/open.html.haml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="46" selection-start="212" selection-end="212" vertical-scroll-proportion="-5.625" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="102" selection-start="305" selection-end="330" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_games_results.html.haml">
@@ -2914,23 +2884,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="74" selection-start="253" selection-end="253" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="85" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="41" selection-start="912" selection-end="912" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -2942,30 +2898,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/regional_cacher.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="83" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/athlete.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="69" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="78" selection-start="143" selection-end="143" vertical-scroll-proportion="-4.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/leaderboard_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="33" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0">
+        <state line="17" column="4" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="119" selection-start="3497" selection-end="3497" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="112" selection-start="97" selection-end="2164" vertical-scroll-proportion="-25.791666">
+        <state line="107" column="88" selection-start="3496" selection-end="3496" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="28" selection-start="2524" selection-end="2524" vertical-scroll-proportion="0.7457627">
+        <state line="94" column="28" selection-start="2524" selection-end="2524" vertical-scroll-proportion="-11.416667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="11" selection-start="691" selection-end="691" vertical-scroll-proportion="0.33283803">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="112" selection-start="97" selection-end="2164" vertical-scroll-proportion="-23.291666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="0.2311248">
           <folding />
         </state>
       </provider>

@@ -1,0 +1,44 @@
+
+.table-responsive
+  %table.table.table-striped
+    %thead
+      %tr
+        %th.col-sm-1 Pos
+        %th.col-sm-3 Name
+        %th.col-sm-1 Points
+        %th.nowrap Workout 1
+        %th.nowrap Workout 2
+        %th.nowrap Workout 3
+        %th.nowrap Workout 4
+        %th.nowrap Workout 5
+        %th.nowrap Workout 6
+        %th.nowrap Workout 7
+        %th.nowrap Workout 8
+        %th.nowrap Workout 9
+        %th.nowrap Workout 10
+        %th.nowrap Workout 11
+        %th.nowrap Workout 12
+        %th.nowrap Workout 13
+        %th.nowrap Workout 14
+        %th.nowrap Workout 15
+        %th.nowrap Workout 16
+        %th.nowrap Workout 17
+        %th.nowrap Workout 18
+        %th.nowrap Workout 19
+        %th.nowrap Workout 20
+
+    %tbody
+      - results['leaderboardRows'].each do |row|
+        - athlete = row['entrant']
+        %tr{:id => athlete['competitorId']}
+          %td #{row['overallRank']}
+          %td #{athlete['competitorName']}
+          %td #{row['overallScore']}
+          - row['scores'].each do |score|
+            %td
+              #{score['points']}
+          - (row['scores'].count..20).each do |i|
+            %td &nbsp;
+
+
+-##{score['rank']} (#{score['scoreDisplay']})

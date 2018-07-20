@@ -19,6 +19,8 @@ Rails.application.routes.draw do
 
   get 'hubspot/app/involvements' => 'hubspot#involvements'
 
+  get 'fantasy2018' => 'home#fantasy2018'
+
 
   #root 'leaderboard#online_qualifier'
   root 'leaderboard#regionals'

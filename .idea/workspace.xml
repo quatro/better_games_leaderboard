@@ -2,18 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d6d569b-8063-4de0-9a53-9a458f7001c7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home/_fantasy2018.html.haml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/scraper.rb" afterPath="$PROJECT_DIR$/lib/scraper.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="better_games_leaderboard.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/20170228015459_create_tables.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488338969541" ignored="false" />
-    <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1526677510415" ignored="false" />
+    <file path="/scraper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1532088925831" ignored="false" />
     <file path="/Gemfile" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1521517015258" ignored="false" />
-    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1527796140157" ignored="false" />
-    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1532087374268" ignored="false" />
+    <file path="/a.dummy" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1532101106968" ignored="false" />
+    <file path="/Dummy.txt" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1533139564073" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/models/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490702556223" ignored="false" />
     <file path="/exchanger_article.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488547483025" ignored="false" />
     <file path="/filter.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1526677417217" ignored="false" />
@@ -35,7 +34,7 @@
     <file path="/application.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1515186027498" ignored="false" />
     <file path="/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1527710586612" ignored="false" />
     <file path="$PROJECT_DIR$/../htri.net/app/helpers/application_helper.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1490206509753" ignored="false" />
-    <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1532088542671" ignored="false" />
+    <file path="/home_controller.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1532088946893" ignored="false" />
     <file path="/about.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488421134306" ignored="false" />
     <file path="/_header.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1488341020303" ignored="false" />
     <file path="/index.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1527593760490" ignored="false" />
@@ -1529,7 +1528,7 @@
     <file path="/filter_select_input.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498003205859" ignored="false" />
     <file path="$PROJECT_DIR$/../dominican/app/views/athletes/show.html.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498009854534" ignored="false" />
     <file path="/show.html.erb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498008706912" ignored="false" />
-    <file path="$PROJECT_DIR$/../dominican/app/views/athletes/show.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1516573352054" ignored="false" />
+    <file path="$PROJECT_DIR$/../dominican/app/views/athletes/show.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1532101124481" ignored="false" />
     <file path="$PROJECT_DIR$/../dominican/app/views/athletes/_info.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501525103723" ignored="false" />
     <file path="/_info.html.haml" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1501525103723" ignored="false" />
     <file path="$PROJECT_DIR$/../dominican/db/migrate/20170621023759_remove_athlete_fields.rb" changelist="5d6d569b-8063-4de0-9a53-9a458f7001c7" time="1498012794370" ignored="false" />
@@ -2279,7 +2278,7 @@
       <file leaf-file-name="_regional_results.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="22" selection-start="2203" selection-end="3295" vertical-scroll-proportion="-35.0">
+            <state line="112" column="22" selection-start="2203" selection-end="3295" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2288,7 +2287,7 @@
       <file leaf-file-name="regionals.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="-6.25">
+            <state line="10" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2306,7 +2305,7 @@
       <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="29" selection-start="801" selection-end="812" vertical-scroll-proportion="0.0">
+            <state line="21" column="40" selection-start="801" selection-end="812" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2315,7 +2314,7 @@
       <file leaf-file-name="home_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="28" selection-start="590" selection-end="590" vertical-scroll-proportion="0.33527696">
+            <state line="22" column="41" selection-start="596" selection-end="596" vertical-scroll-proportion="0.32069972">
               <folding />
             </state>
           </provider>
@@ -2324,7 +2323,7 @@
       <file leaf-file-name="_fantasy2018.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home/_fantasy2018.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="32" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-23.75">
+            <state line="38" column="32" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2351,7 +2350,7 @@
       <file leaf-file-name="scraper.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="97" column="6" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.0">
+            <state line="106" column="67" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -2384,12 +2383,12 @@
         <option value="$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml" />
         <option value="$PROJECT_DIR$/app/models/filter.rb" />
         <option value="$PROJECT_DIR$/app/controllers/leaderboard_controller.rb" />
-        <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml" />
         <option value="$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/home/fantasy2018.html.haml" />
         <option value="$PROJECT_DIR$/app/views/home/_fantasy2018.html.haml" />
+        <option value="$PROJECT_DIR$/lib/scraper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
       </list>
     </option>
@@ -2425,6 +2424,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -2553,19 +2554,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="RailsProjectView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="dynamic.classpath" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Rails.Development: better_games_leaderboard">
     <configuration default="true" type="RakeRunConfigurationType" factoryName="Rake">
@@ -2848,10 +2847,9 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21771611" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22038421" sideWeight="0.6703704" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -2860,6 +2858,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32992566" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -2951,63 +2950,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/athlete.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="69" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="69" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/filter.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="11" selection-start="691" selection-end="691" vertical-scroll-proportion="0.33283803">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="97" selection-end="2164" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="33" column="11" selection-start="691" selection-end="691" vertical-scroll-proportion="0.33283803" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/regionals.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="801" selection-end="812" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="97" column="6" selection-start="2885" selection-end="2885" vertical-scroll-proportion="0.0">
+        <state line="10" column="59" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_regional_results.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="22" selection-start="2203" selection-end="3295" vertical-scroll-proportion="-35.0">
+        <state line="112" column="22" selection-start="2203" selection-end="3295" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -3019,16 +2979,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_fantasy2018.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="32" selection-start="1085" selection-end="1085" vertical-scroll-proportion="-23.75">
+        <state line="38" column="32" selection-start="1085" selection-end="1085" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/online_qualifier.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/leaderboard/_online_qualifier_results.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="0" selection-start="97" selection-end="2164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/scraper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="106" column="67" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="40" selection-start="801" selection-end="812" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="28" selection-start="590" selection-end="590" vertical-scroll-proportion="0.33527696">
+        <state line="22" column="41" selection-start="596" selection-end="596" vertical-scroll-proportion="0.32069972">
           <folding />
         </state>
       </provider>

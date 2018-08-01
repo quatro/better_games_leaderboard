@@ -23,5 +23,6 @@ Rails.application.routes.draw do
 
 
   #root 'leaderboard#online_qualifier'
-  root 'leaderboard#regionals'
+  #root 'leaderboard#regionals'
+  root 'leaderboard#games'
 end

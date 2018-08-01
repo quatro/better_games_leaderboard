@@ -32,7 +32,7 @@ class LeaderboardController < ApplicationController
       hash = JSON.parse(results.body)
       return render partial:'regional_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:hash['pagination']['totalPages'].to_i, athlete:athlete}
     elsif games
-      results = scraper.filter_games(division, sort, page)
+      results = scraper.filter_games(division, year, sort, page)
       return render partial:'games_results', locals:{page:page, results_per_page:RESULTS_PER_PAGE, results:results, current_page: page, last_page:results['totalpages'].to_i, athlete:athlete}
     else
       results = scraper.filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, athlete, page)

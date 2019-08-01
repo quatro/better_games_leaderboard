@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="Rails better_games_leaderboard: production" uuid="983e0140-588b-42e8-bc5e-d0f56f143bd3">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+      <user-name>better_games_leaderboard</user-name>
+    </data-source>
+    <data-source name="Rails better_games_leaderboard: development" uuid="e00634fe-5a67-48f3-bd39-4d074d301e9c">
+      <database-info product="PostgreSQL" version="9.3.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" family="POSTGRES" exact-version="9.3.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <introspection-schemas>better_games_leaderboard_development:information_schema,pg_catalog,public</introspection-schemas>
+    </data-source>
+    <data-source name="Rails better_games_leaderboard: test" uuid="2dd17bf9-b77a-4b4e-bf58-1a7b7ec04ce2">
+      <database-info product="PostgreSQL" version="9.3.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" family="POSTGRES" exact-version="9.3.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <introspection-schemas>better_games_leaderboard_test:information_schema,pg_catalog,public</introspection-schemas>
+    </data-source>
+  </component>
+</project>

@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3051809748">
-    <data-source source="LOCAL" name="Rails better_games_leaderboard: production" product="" version="" jdbc-version="" driver-name="" driver-version="" uuid="983e0140-588b-42e8-bc5e-d0f56f143bd3">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Rails better_games_leaderboard: production" uuid="983e0140-588b-42e8-bc5e-d0f56f143bd3">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:better_games_leaderboard_production</jdbc-url>
-      <user-name>better_games_leaderboard</user-name>
-      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfe8dfefdffedffedfefdff8dff5dfeddfebdfe7dfefdff9dff5dfe6dfefdfebdfeedfefdff8dfe8dfe5dfebdff8dfeedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
       <libraries>
         <library>
           <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-driver-license.txt</url>
@@ -15,8 +14,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails better_games_leaderboard: development" product="PostgreSQL" version="9.3.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="e00634fe-5a67-48f3-bd39-4d074d301e9c">
-      <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails better_games_leaderboard: development" uuid="e00634fe-5a67-48f3-bd39-4d074d301e9c">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:better_games_leaderboard_development</jdbc-url>
       <libraries>
@@ -28,8 +27,8 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="Rails better_games_leaderboard: test" product="PostgreSQL" version="9.3.5" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.2 JDBC4 (build 1002)" uuid="2dd17bf9-b77a-4b4e-bf58-1a7b7ec04ce2">
-      <identifier-quote-string>&quot;</identifier-quote-string>
+    <data-source source="LOCAL" name="Rails better_games_leaderboard: test" uuid="2dd17bf9-b77a-4b4e-bf58-1a7b7ec04ce2">
+      <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql:better_games_leaderboard_test</jdbc-url>
       <libraries>
@@ -43,4 +42,3 @@
     </data-source>
   </component>
 </project>
-

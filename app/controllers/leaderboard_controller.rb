@@ -11,7 +11,7 @@ class LeaderboardController < ApplicationController
     filter_params
     page = !filter_params[:page].blank? ? filter_params[:page] : 1
     competition = filter_params.has_key?(:competition) ? filter_params[:competition] : 1
-    year = filter_params.has_key?(:year) ? filter_params[:year] : 2018
+    year = filter_params.has_key?(:year) ? filter_params[:year] : 2019
     scaled = 0
     fittest = 1
     division = filter_params[:division]

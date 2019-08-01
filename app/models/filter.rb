@@ -496,7 +496,7 @@ class Filter
 
   def self.year_options
     {
-        '2018' => 2018
+        '2019' => 2019
     }
   end
 end

@@ -89,9 +89,9 @@ class Scraper
 
   def filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, athlete, page)
     if athlete.blank?
-      self.class.get("/competitions/api/v1/competitions/open/2018/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, region:fittest1, occupation: occupation, page:page}})
+      self.class.get("/competitions/api/v1/competitions/open/2019/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, region:fittest1, occupation: occupation, page:page}})
     else
-      self.class.get("/competitions/api/v1/competitions/open/2018/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, region1:fittest1, occupation: occupation, page:page, athlete:athlete}})
+      self.class.get("/competitions/api/v1/competitions/open/2019/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, region1:fittest1, occupation: occupation, page:page, athlete:athlete}})
     end
   end
 
@@ -108,18 +108,18 @@ class Scraper
   end
 
   def search(term, division)
-    self.class.get("/competitions/api/v1/competitions/open/2018/athletes", { query: {term:term, division: division}})
+    self.class.get("/competitions/api/v1/competitions/open/2019/athletes", { query: {term:term, division: division}})
   end
 
   private
 
   def page_count_for_filter(competition, year, division, scaled, fittest, fittest1, occupation, sort)
-    results = self.class.get("/competitions/api/v1/competitions/open/2018/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:1}})
+    results = self.class.get("/competitions/api/v1/competitions/open/2019/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:1}})
     results['totalpages']
   end
 
   def store_for_filter(competition, year, division, scaled, fittest, fittest1, occupation, sort, page, batch)
-    results = self.class.get("/competitions/api/v1/competitions/open/2018/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:page}})
+    results = self.class.get("/competitions/api/v1/competitions/open/2019/leaderboards", { query: {compeition:competition, year:year, division:division, scaled:scaled, sort:sort, fittest:fittest, fittest1:fittest1, occupation: occupation, page:page}})
 
     wod = Wod.find_by_name('17.1')
 
